@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.MainActivity pref" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/HttpUtil.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.HttpUtil void sendOkHttpRequest(java.lang.String address, okhttp3.Callback callback)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.Utility boolean handleUserResponse(java.lang.String response)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
+    <line>94</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.Utility boolean searchUser(java.lang.String response)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void v(java.lang.String tag, java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void i(java.lang.String tag, java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void d(java.lang.String tag, java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil NOTHING" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field has no usages.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void w(java.lang.String tag, java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article Article(int articleID, java.lang.String userID, java.lang.String nickname, java.lang.String content, java.lang.String imageURL, java.util.Date date)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Constructor is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setImageURL(java.lang.String imageURL)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setArticleID(int articleID)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setUserID(java.lang.String userID)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.db.Article timeStamp" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is never assigned.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article java.util.Date getDate()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setDate(java.util.Date date)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>73</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setContent(java.lang.String content)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setNickname(java.lang.String nickname)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+</problems>
+

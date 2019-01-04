@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Icon format does not match the file extension</problem_class>
+    <hints />
+    <description>&lt;html&gt;Misleading file extension; named &lt;code&gt;.png&lt;/code&gt; but the file format is &lt;code&gt;JPEG&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

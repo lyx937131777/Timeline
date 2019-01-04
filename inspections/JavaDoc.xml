@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>282</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivity void changePwdOpenOrClose(boolean flag)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration has Javadoc problems</problem_class>
+    <description>&lt;code&gt;@param flag&lt;/code&gt; tag description is missing</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>454</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity java.lang.String imageToBase64(java.lang.String path)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration has Javadoc problems</problem_class>
+    <description>&lt;code&gt;@param path&lt;/code&gt; tag description is missing</description>
+  </problem>
+</problems>
+

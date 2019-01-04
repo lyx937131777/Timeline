@@ -60,15 +60,15 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         pref = PreferenceManager.getDefaultSharedPreferences(this);
-
-        username_text = pref.getString("userID", null);
-        password_text = pref.getString("password", null);
-        if (username_text != null & password_text != null)
-        {
-            Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
-            startActivity(intent_login);
-            finish();
-        }
+//
+//        username_text = pref.getString("userID", null);
+//        password_text = pref.getString("password", null);
+//        if (username_text != null & password_text != null)
+//        {
+//            Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
+//            startActivity(intent_login);
+//            finish();
+//        }
     }
 
     @Override
@@ -201,56 +201,66 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
                     Toast.makeText(LoginActivity.this, "密码位数不正确", Toast.LENGTH_LONG).show();
                 } else
                 {
-                    Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(intent_login);
-                    finish();
-//                    String address = HttpUtil.LocalAddress + "/user/login";
-//                    HttpUtil.loginRequest(address, username_text, password_text, new Callback()
-//                    {
-//                        @Override
-//                        public void onFailure(Call call, IOException e)
-//                        {
-//                            e.printStackTrace();
-//                            runOnUiThread(new Runnable()
-//                            {
-//                                @Override
-//                                public void run()
-//                                {
-//                                    Toast.makeText(LoginActivity.this, "服务器连接错误", Toast
-//                                            .LENGTH_LONG).show();
-//                                }
-//                            });
-//                        }
-//
-//                        @Override
-//                        public void onResponse(Call call, Response response) throws IOException
-//                        {
-//                            final String responsDate = response.body().string();
-//                            LogUtil.e("Login", responsDate);
-//                            if (Utility.storeLoginUser(responsDate))
-//                            {
-//                                editor = pref.edit();
-//                                editor.putString("userID", username_text);
-//                                editor.putString("password", password_text);
-//                                editor.putString("latest", String.valueOf(System.currentTimeMillis()));
-//                                editor.apply();
-//                                Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
-//                                startActivity(intent_login);
-//                                finish();
-//                            } else
-//                            {
-//                                runOnUiThread(new Runnable()
-//                                {
-//                                    @Override
-//                                    public void run()
-//                                    {
-//                                        Toast.makeText(LoginActivity.this, "用户名或密码错误", Toast
-//                                                .LENGTH_LONG).show();
-//                                    }
-//                                });
-//                            }
-//                        }
-//                    });
+                    LogUtil.e("Login", "发送登录请求");
+                    String address = HttpUtil.LocalAddress + "/user/login";
+                    HttpUtil.loginRequest(address, username_text, password_text, new Callback()
+                    {
+                        @Override
+                        public void onFailure(Call call, IOException e)
+                        {
+                            e.printStackTrace();
+                            runOnUiThread(new Runnable()
+                            {
+                                @Override
+                                public void run()
+                                {
+                                    Toast.makeText(LoginActivity.this, "服务器连接错误", Toast
+                                            .LENGTH_LONG).show();
+                                }
+                            });
+                        }
+
+                        @Override
+                        public void onResponse(Call call, Response response) throws IOException
+                        {
+                            final String responsData = response.body().string();
+                            LogUtil.e("Login", responsData);
+                            if (Utility.checkMessage(responsData).equals("true"))
+                            {
+                                editor = pref.edit();
+                                editor.putString("userID", username_text);
+                                editor.putString("password", password_text);
+                                editor.putString("nickname",Utility.checkString(responsData,"nickname"));
+                                editor.putString("latest", String.valueOf(System.currentTimeMillis()));
+                                editor.apply();
+                                Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
+                                startActivity(intent_login);
+                                finish();
+                            } else if(Utility.checkErrorType(responsData).equals("invalid_userID_or_password"))
+                            {
+                                runOnUiThread(new Runnable()
+                                {
+                                    @Override
+                                    public void run()
+                                    {
+                                        Toast.makeText(LoginActivity.this, "用户名或密码错误", Toast
+                                                .LENGTH_LONG).show();
+                                    }
+                                });
+                            }else if(Utility.checkErrorType(responsData).equals("query_error"))
+                            {
+                                runOnUiThread(new Runnable()
+                                {
+                                    @Override
+                                    public void run()
+                                    {
+                                        Toast.makeText(LoginActivity.this, "数据库发生错误", Toast
+                                                .LENGTH_LONG).show();
+                                    }
+                                });
+                            }
+                        }
+                    });
 
                 }
                 break;

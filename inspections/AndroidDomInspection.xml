@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml</file>
+    <line>3</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Android Resources Validation</problem_class>
+    <description>Value must not be empty</description>
+  </problem>
+</problems>
+

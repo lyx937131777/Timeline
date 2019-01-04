@@ -255,7 +255,7 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
                         {
                             final String responseData = response.body().string();
                             LogUtil.e("Register", "源码 : " + responseData);
-                            if (Utility.checkCode(responseData).equals("true"))
+                            if (Utility.checkMessage(responseData).equals("true"))
                             {
                                 runOnUiThread(new Runnable()
                                 {
@@ -280,7 +280,7 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
                                     }
                                 });
 
-                            } else if (responseData.equals("same"))
+                            } else if (Utility.checkErrorType(responseData).equals("userID_repeated"))
                             {
                                 runOnUiThread(new Runnable()
                                 {

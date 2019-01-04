@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_push.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_push.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing labelFor attribute</problem_class>
+    <hints />
+    <description>&lt;html&gt;Missing accessibility label: where minSdk &amp;lt; 17, you should provide an &lt;code&gt;android:hint&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+
