@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.LoginActivity bt_login" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.LoginActivity bt_go_register" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.MainActivity recyclerView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.MainActivity swipeRefresh" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>57</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.MainActivity articleAdapter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
     <line>59</line>
     <module>app</module>
@@ -10,35 +55,8 @@
     <description>Field can be converted to a local variable</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
-    <line>58</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.MainActivity pref" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
-    <description>Field can be converted to a local variable</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
-    <line>42</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.LoginActivity bt_go_register" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
-    <description>Field can be converted to a local variable</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
-    <line>41</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.LoginActivity bt_login" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
-    <description>Field can be converted to a local variable</description>
-  </problem>
-  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
-    <line>35</line>
+    <line>40</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivity bt_register" />
@@ -47,25 +65,7 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
-    <line>23</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity imageView" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
-    <description>Field can be converted to a local variable</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
-    <line>20</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity authorText" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
-    <description>Field can be converted to a local variable</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
-    <line>22</line>
+    <line>40</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity contentText" />
@@ -74,7 +74,34 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
-    <line>21</line>
+    <line>44</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity article" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity imageView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity authorText" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>39</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity dateText" />
@@ -82,29 +109,56 @@
     <description>Field can be converted to a local variable</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>75</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>42</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivity content" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivity imageCard" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
     <description>Field can be converted to a local variable</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>74</line>
+    <line>80</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivity image" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivity type" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
     <description>Field can be converted to a local variable</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>72</line>
+    <line>79</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivity pref" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivity article" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter pref" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/PushPresenterTest.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenterTest article" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/PushPresenterTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenterTest pushActivity" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
     <description>Field can be converted to a local variable</description>
   </problem>

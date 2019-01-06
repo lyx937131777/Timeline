@@ -1,8 +1,568 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/dagger2/MyModule.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>com.timeline.android.dagger2</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/dagger2/MyModule.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.presenter.MainPresenter;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Patterns;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.Preference;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.Toast;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Patterns;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.SharedPreferences;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.ArgumentMatchers.anyString;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.ArgumentMatchers.any;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.util.Collection;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>34</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.util.Arrays;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.lang.reflect.Array;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.ShadowToast;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.ShadowLog;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.Shadows;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.ParameterizedRobolectricTestRunner;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.junit.runners.Parameterized;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.text.format.Time;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/MainPresenterTest.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/MainPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.junit.Assert.*;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.Mockito.when;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.ShadowActivity;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadow.api.Shadow;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.Shadows;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.Mockito.verify;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.lang.reflect.Array;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.ShadowDialog;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.RobolectricTestRunner;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.mockito.junit.MockitoRule;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.mockito.junit.MockitoJUnit;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.mockito.MockitoAnnotations;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.mockito.Mock;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.junit.runners.Parameterized;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.junit.Rule;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.BuildConfig;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.Context;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Response;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Callback;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Call;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.IOException;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.Utility;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.HttpUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.CheckUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>18</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.Toast;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Patterns;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.SharedPreferences;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
-    <line>28</line>
+    <line>34</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Response;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Callback;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Call;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>29</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
@@ -12,13 +572,83 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
-    <line>25</line>
+    <line>28</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.util.Comparator;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.util.Collections;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>26</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
     <description>Unused import &lt;code&gt;import java.util.Collection;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.IOException;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.Utility;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.HttpUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.Toast;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
@@ -29,6 +659,456 @@
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
     <description>Unused import &lt;code&gt;import android.widget.TextView;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.SharedPreferences;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Response;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Callback;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Call;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.IOException;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.Utility;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.HttpUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.CheckUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.Toast;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Patterns;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.DialogInterface;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/RegisterActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.app.AlertDialog;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>34</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Response;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Callback;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Call;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.text.SimpleDateFormat;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.IOException;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.Utility;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.HttpUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.Toast;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.SharedPreferences;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>4</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.DialogInterface;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.app.AlertDialog;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>62</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Response;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Callback;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import okhttp3.Call;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.util.concurrent.TimeUnit;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.InputStream;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.FileInputStream;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>51</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.Utility;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.LogUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.HttpUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.UnsupportedEncodingException;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.widget.ProgressBar;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.util.Base64;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>25</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.text.TextUtils;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.content.SharedPreferences;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
+    <line>16</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.text.SimpleDateFormat;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/HttpUtil.java</file>
@@ -71,64 +1151,254 @@
     <description>Unused import &lt;code&gt;import java.io.File;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
-    <line>17</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/HttpUtil.java</file>
+    <line>3</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/HttpUtil.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import java.util.ArrayList;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import android.util.Log;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java</file>
-    <line>16</line>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/LoginActivityTest.java</file>
+    <line>10</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleActivity.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/LoginActivityTest.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import java.text.SimpleDateFormat;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import org.junit.Ignore;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>51</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/dagger2/MyComponent.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>com.timeline.android.dagger2</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/dagger2/MyComponent.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.presenter.MainPresenter;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java</file>
+    <line>19</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import java.util.concurrent.TimeUnit;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import static org.junit.Assert.*;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>40</line>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java</file>
+    <line>5</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import java.io.UnsupportedEncodingException;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import com.timeline.android.presenter.LoginPresenter;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.support.v4.Shadows;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.robolectric.shadows.support.v4.ShadowSwipeRefreshLayout;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>14</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.R;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.view.Menu;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>8</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.preference.PreferenceManager;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java</file>
+    <line>15</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import org.assertj.core.api.Assert;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.presenter.MainPresenter;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.view.Menu;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.MainActivity;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.app.Activity;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>17</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import java.io.File;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.bumptech.glide.Glide;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import static org.mockito.ArgumentMatchers.eq;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
     <line>37</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import android.widget.ProgressBar;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import static org.mockito.ArgumentMatchers.anyString;&lt;/code&gt; #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
-    <line>16</line>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>36</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java" />
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
     <hints />
-    <description>Unused import &lt;code&gt;import java.text.SimpleDateFormat;&lt;/code&gt; #loc</description>
+    <description>Unused import &lt;code&gt;import static org.mockito.ArgumentMatchers.any;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>13</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.presenter.ArticlePresenter;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>9</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.view.View;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import android.app.Activity;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/SuiteTest.java</file>
+    <line>5</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/SuiteTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.util.CheckUtil;&lt;/code&gt; #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/SuitePresenterTest.java</file>
+    <line>3</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/SuitePresenterTest.java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+    <hints />
+    <description>Unused import &lt;code&gt;import com.timeline.android.ArticleActivityTest;&lt;/code&gt; #loc</description>
   </problem>
 </problems>
 

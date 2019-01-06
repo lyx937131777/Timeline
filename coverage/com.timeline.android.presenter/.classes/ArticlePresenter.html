@@ -1,0 +1,268 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ArticlePresenter</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android.presenter</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ArticlePresenter (com.timeline.android.presenter)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ArticlePresenter</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (4/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    94.1%
+  </span>
+  <span class="absValue">
+    (16/ 17)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">ArticlePresenter$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    66.7%
+  </span>
+  <span class="absValue">
+    (2/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    62.5%
+  </span>
+  <span class="absValue">
+    (5/ 8)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$1$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$1$1$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 4)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691$auxiliary$5LKbNjEV</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691$auxiliary$PGq5pRVe</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691$auxiliary$r9h0rN9v</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691$auxiliary$swzl4pEg</td>
+  </tr>
+  <tr>
+    <td class="name">ArticlePresenter$MockitoMock$1431336691$auxiliary$ZfQMKbBz</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    50%
+  </span>
+  <span class="absValue">
+    (6/ 12)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    60%
+  </span>
+  <span class="absValue">
+    (21/ 35)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android.presenter;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.app.AlertDialog;
+<i>4</i>&nbsp;import android.content.Context;
+<i>5</i>&nbsp;import android.content.DialogInterface;
+<i>6</i>&nbsp;import android.content.Intent;
+<i>7</i>&nbsp;import android.content.SharedPreferences;
+<i>8</i>&nbsp;import android.preference.PreferenceManager;
+<i>9</i>&nbsp;import android.util.Log;
+<i>10</i>&nbsp;import android.view.Menu;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;import com.timeline.android.ArticleActivity;
+<i>13</i>&nbsp;import com.timeline.android.PushActivity;
+<i>14</i>&nbsp;import com.timeline.android.R;
+<i>15</i>&nbsp;import com.timeline.android.db.Article;
+<i>16</i>&nbsp;import com.timeline.android.util.HttpUtil;
+<i>17</i>&nbsp;import com.timeline.android.util.Utility;
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;import java.io.IOException;
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;import okhttp3.Call;
+<i>22</i>&nbsp;import okhttp3.Callback;
+<i>23</i>&nbsp;import okhttp3.Response;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;import static android.app.Activity.RESULT_OK;
+<i>26</i>&nbsp;
+<b class="nc"><i>27</i>&nbsp;public class ArticlePresenter</b>
+<i>28</i>&nbsp;{
+<i>29</i>&nbsp;    private Context context;
+<i>30</i>&nbsp;    private Article article;
+<i>31</i>&nbsp;    private SharedPreferences pref;
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    public ArticlePresenter(Context context, SharedPreferences pref)
+<b class="fc"><i>34</i>&nbsp;    {</b>
+<b class="fc"><i>35</i>&nbsp;        this.context = context;</b>
+<b class="fc"><i>36</i>&nbsp;        this.pref = pref;</b>
+<b class="fc"><i>37</i>&nbsp;        article = (Article) ((ArticleActivity)context).getIntent().getSerializableExtra(&quot;article&quot;);</b>
+<b class="fc"><i>38</i>&nbsp;    }</b>
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    public boolean createMenu()
+<i>41</i>&nbsp;    {
+<b class="fc"><i>42</i>&nbsp;        if(article.getUserID().equals(pref.getString(&quot;userID&quot;,&quot;&quot;)))</b>
+<i>43</i>&nbsp;        {
+<b class="fc"><i>44</i>&nbsp;            return true;</b>
+<i>45</i>&nbsp;        }
+<b class="fc"><i>46</i>&nbsp;        return false;</b>
+<i>47</i>&nbsp;    }
+<i>48</i>&nbsp;
+<i>49</i>&nbsp;    public void edit()
+<i>50</i>&nbsp;    {
+<b class="fc"><i>51</i>&nbsp;        Intent intent = new Intent(context,PushActivity.class);</b>
+<b class="fc"><i>52</i>&nbsp;        intent.putExtra(&quot;type&quot;,&quot;edit&quot;);</b>
+<b class="fc"><i>53</i>&nbsp;        intent.putExtra(&quot;article&quot;,article);</b>
+<b class="fc"><i>54</i>&nbsp;        ((ArticleActivity)context).startActivityForResult(intent,1);</b>
+<b class="fc"><i>55</i>&nbsp;    }</b>
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;    public void delete()
+<i>58</i>&nbsp;    {
+<b class="fc"><i>59</i>&nbsp;        String address = HttpUtil.LocalAddress + &quot;/article/delete&quot;;</b>
+<b class="fc"><i>60</i>&nbsp;        HttpUtil.deleteRequest(address, article.getArticleID(), new Callback()</b>
+<b class="fc"><i>61</i>&nbsp;        {</b>
+<i>62</i>&nbsp;            @Override
+<i>63</i>&nbsp;            public void onFailure(Call call, IOException e)
+<i>64</i>&nbsp;            {
+<b class="nc"><i>65</i>&nbsp;                e.printStackTrace();</b>
+<b class="nc"><i>66</i>&nbsp;            }</b>
+<i>67</i>&nbsp;
+<i>68</i>&nbsp;            @Override
+<i>69</i>&nbsp;            public void onResponse(Call call, Response response) throws IOException
+<i>70</i>&nbsp;            {
+<b class="fc"><i>71</i>&nbsp;                final String responseData = response.body().string();</b>
+<b class="fc"><i>72</i>&nbsp;                Log.e(&quot;PushActivity:data&quot;, responseData);</b>
+<b class="fc"><i>73</i>&nbsp;                if (Utility.checkMessage(responseData).equals(&quot;true&quot;))</b>
+<i>74</i>&nbsp;                {
+<b class="nc"><i>75</i>&nbsp;                    ((ArticleActivity)context).runOnUiThread(new Runnable()</b>
+<b class="nc"><i>76</i>&nbsp;                    {</b>
+<i>77</i>&nbsp;                        @Override
+<i>78</i>&nbsp;                        public void run()
+<i>79</i>&nbsp;                        {
+<b class="nc"><i>80</i>&nbsp;                            new AlertDialog.Builder(context)</b>
+<b class="nc"><i>81</i>&nbsp;                                    .setTitle(&quot;提示&quot;)</b>
+<b class="nc"><i>82</i>&nbsp;                                    .setMessage(&quot;删除成功&quot;)</b>
+<b class="nc"><i>83</i>&nbsp;                                    .setPositiveButton(&quot;确定&quot;, new</b>
+<i>84</i>&nbsp;                                            DialogInterface.OnClickListener()
+<b class="nc"><i>85</i>&nbsp;                                            {</b>
+<i>86</i>&nbsp;                                                @Override
+<i>87</i>&nbsp;                                                public void onClick(DialogInterface
+<i>88</i>&nbsp;                                                                            dialog,
+<i>89</i>&nbsp;                                                                    int which)
+<i>90</i>&nbsp;                                                {
+<b class="nc"><i>91</i>&nbsp;                                                    Intent intent = new Intent();</b>
+<b class="nc"><i>92</i>&nbsp;                                                    ((ArticleActivity)context).setResult(RESULT_OK, intent);</b>
+<b class="nc"><i>93</i>&nbsp;                                                    ((ArticleActivity)context).finish();</b>
+<i>94</i>&nbsp;                                                }
+<i>95</i>&nbsp;                                            })
+<b class="nc"><i>96</i>&nbsp;                                    .show();</b>
+<i>97</i>&nbsp;                        }
+<i>98</i>&nbsp;                    });
+<i>99</i>&nbsp;                }
+<b class="fc"><i>100</i>&nbsp;            }</b>
+<i>101</i>&nbsp;        });
+<b class="fc"><i>102</i>&nbsp;    }</b>
+<i>103</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

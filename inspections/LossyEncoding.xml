@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/Utility.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/Utility.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/HttpUtil.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/HttpUtil.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/CheckUtil.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.util/.classes/CheckUtil.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/MainPresenter.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/MainPresenter.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/LoginPresenter.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/LoginPresenter.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/RegisterPresenter.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/RegisterPresenter.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/LoginActivity.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/LoginActivity.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/RegisterActivity.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/RegisterActivity.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/MainActivity.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/MainActivity.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/PushActivity.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android/.classes/PushActivity.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/ArticlePresenter.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/ArticlePresenter.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/PushPresenter.html</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/coverage/com.timeline.android.presenter/.classes/PushPresenter.html" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Lossy encoding</problem_class>
+    <description>File was loaded in the wrong encoding: 'UTF-8'</description>
+  </problem>
+</problems>
+

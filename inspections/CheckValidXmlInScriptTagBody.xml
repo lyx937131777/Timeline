@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html</file>
+    <line>279</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Malformed content of &lt;script&gt; tag</problem_class>
+    <description>Unescaped xml character</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html</file>
+    <line>282</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Malformed content of &lt;script&gt; tag</problem_class>
+    <description>Unescaped xml character</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html</file>
+    <line>322</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Malformed content of &lt;script&gt; tag</problem_class>
+    <description>Unescaped xml character</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html</file>
+    <line>556</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/UnitTest/Test Results - SuiteTest.html" />
+    <problem_class severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Malformed content of &lt;script&gt; tag</problem_class>
+    <description>Unescaped xml character</description>
+  </problem>
+</problems>
+

@@ -1,8 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenter$5 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenter$5 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$4 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$4 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>59</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>59</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>97</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$8 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>97</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$8 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>112</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$8 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>112</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$8 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>321</line>
+    <line>270</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
@@ -11,12 +155,120 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>322</line>
+    <line>271</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
     <description>Not annotated parameter overrides @NonNull parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter$3 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter$3 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter$3 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter$3 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>81</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>81</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>75</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>75</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>111</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>111</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>105</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>105</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onFailure(okhttp3.Call call, java.io.IOException e)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">@NotNull/@Nullable problems</problem_class>
+    <description>Not annotated parameter overrides @ParametersAreNonnullByDefault parameter</description>
   </problem>
 </problems>
 

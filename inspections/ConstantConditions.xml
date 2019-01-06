@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/MainActivity.java</file>
-    <line>231</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
+    <line>70</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.MainActivity void moreArticle(java.lang.String responsData)" />
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
-    <description>Dereference of &lt;code&gt;tempArticleList&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
+    <line>114</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenter$8 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>55</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>393</line>
+    <line>184</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void init_dialog()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getAttributes&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>340</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void handleImageOnKitKat(android.content.Intent data)" />
@@ -20,7 +56,7 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>404</line>
+    <line>351</line>
     <module>app</module>
     <package>com.timeline.android</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void handleImageOnKitKat(android.content.Intent data)" />
@@ -28,31 +64,40 @@
     <description>Method invocation &lt;code&gt;getScheme&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>352</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
+    <line>116</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
-    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>484</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity java.lang.String imageToBase64(java.lang.String path)" />
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.Utility java.lang.String imageToBase64(java.lang.String path)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
     <description>Method invocation &lt;code&gt;length&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>235</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>71</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void init_dialog()" />
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter$3 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
-    <description>Method invocation &lt;code&gt;getAttributes&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>113</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
 </problems>
 

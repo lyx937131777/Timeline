@@ -16,14 +16,6 @@ public class HttpUtil
 {
     public static final String LocalAddress = "http://129.204.74.128:8080/timeline";
 
-    public static void sendOkHttpRequest(String address, okhttp3.Callback callback)
-    {
-        Log.e("HttpUtil", address);
-        OkHttpClient client = new OkHttpClient();
-        Request request = new Request.Builder().url(address).build();
-        client.newCall(request).enqueue(callback);
-    }
-
     //登陆界面
     public static void loginRequest(String address, String userID, String password,
                                     okhttp3.Callback callback)
@@ -77,38 +69,15 @@ public class HttpUtil
         client.newCall(request).enqueue(callback);
     }
 
-    //push
-    public static void pushRequest(String address, String userID, String content, okhttp3.Callback callback)
-    {
-        OkHttpClient client = new OkHttpClient();
-        MediaType JSON = MediaType.parse("application/json; charset=utf-8");//数据类型为json格式
-        String jsonStr = "{\"userID\":\""+userID+"\",\"content\":\""+content+"\"}";
-        LogUtil.e("HttpUtil",jsonStr);
-        RequestBody requestBody = RequestBody.create(JSON, jsonStr);
-        Request request = new Request.Builder().url(address).post(requestBody).build();
-        client.newCall(request).enqueue(callback);
-    }
-
-    // push with photo
+    // push
     public static void pushRequest(String address, String userID, String content, String image, okhttp3.Callback callback)
     {
+
         OkHttpClient client = new OkHttpClient();
         MediaType JSON = MediaType.parse("application/json; charset=utf-8");//数据类型为json格式
         String jsonStr = "{\"userID\":\""+userID+"\",\"content\":\""+content+"\",\"image\":\""+image+"\"}";
         RequestBody requestBody = RequestBody.create(JSON, jsonStr);
-        Request request = new Request.Builder().url(address).post(requestBody).build();
-        client.newCall(request).enqueue(callback);
-    }
-
-    public static void uploadImgRequest(String address, String userID, File photo_file, okhttp3.Callback callback)
-    {
-        OkHttpClient client = new OkHttpClient();//创建OkHttpClient对象。
-        MediaType fileType = MediaType.parse("image/png");//数据类型为File格式，
-        RequestBody fileBody = RequestBody.create(fileType , photo_file );
-        RequestBody requestBody = new MultipartBody.Builder()
-                .setType(MultipartBody.FORM)
-                .addFormDataPart("file", userID, fileBody)
-                .build();
+        LogUtil.e("Http",jsonStr);
         Request request = new Request.Builder().url(address).post(requestBody).build();
         client.newCall(request).enqueue(callback);
     }

@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: MyModule</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android.dagger2</a> ]
+</div>
+
+<h1>Coverage Summary for Class: MyModule (com.timeline.android.dagger2)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">MyModule</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (8/ 8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (10/ 10)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android.dagger2;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Context;
+<i>4</i>&nbsp;import android.content.SharedPreferences;
+<i>5</i>&nbsp;import android.preference.PreferenceManager;
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;import com.timeline.android.presenter.ArticlePresenter;
+<i>8</i>&nbsp;import com.timeline.android.presenter.LoginPresenter;
+<i>9</i>&nbsp;import com.timeline.android.presenter.MainPresenter;
+<i>10</i>&nbsp;import com.timeline.android.presenter.PushPresenter;
+<i>11</i>&nbsp;import com.timeline.android.presenter.RegisterPresenter;
+<i>12</i>&nbsp;import com.timeline.android.util.CheckUtil;
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;import dagger.Module;
+<i>15</i>&nbsp;import dagger.Provides;
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;@Module
+<i>18</i>&nbsp;public class MyModule
+<i>19</i>&nbsp;{
+<i>20</i>&nbsp;    private Context context;
+<i>21</i>&nbsp;
+<i>22</i>&nbsp;    public MyModule(Context context)
+<b class="fc"><i>23</i>&nbsp;    {</b>
+<b class="fc"><i>24</i>&nbsp;        this.context = context;</b>
+<b class="fc"><i>25</i>&nbsp;    }</b>
+<i>26</i>&nbsp;
+<i>27</i>&nbsp;    @Provides
+<i>28</i>&nbsp;    public SharedPreferences provideSharedPreferences(Context context) {
+<b class="fc"><i>29</i>&nbsp;        return PreferenceManager.getDefaultSharedPreferences(context);</b>
+<i>30</i>&nbsp;    }
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    @Provides
+<i>33</i>&nbsp;    public CheckUtil provideCheckUtil(Context context)
+<i>34</i>&nbsp;    {
+<b class="fc"><i>35</i>&nbsp;        return new CheckUtil(context);</b>
+<i>36</i>&nbsp;    }
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;    @Provides
+<i>39</i>&nbsp;    public Context provideContext()
+<i>40</i>&nbsp;    {
+<b class="fc"><i>41</i>&nbsp;        return context;</b>
+<i>42</i>&nbsp;    }
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    @Provides
+<i>45</i>&nbsp;    public LoginPresenter provideLoginPresenter(Context context, SharedPreferences pref, CheckUtil checkUtil)
+<i>46</i>&nbsp;    {
+<b class="fc"><i>47</i>&nbsp;        return new LoginPresenter(context,pref,checkUtil);</b>
+<i>48</i>&nbsp;    }
+<i>49</i>&nbsp;
+<i>50</i>&nbsp;    @Provides
+<i>51</i>&nbsp;    public RegisterPresenter provideRegisterPresenter(Context context, CheckUtil checkUtil)
+<i>52</i>&nbsp;    {
+<b class="fc"><i>53</i>&nbsp;        return new RegisterPresenter(context,checkUtil);</b>
+<i>54</i>&nbsp;    }
+<i>55</i>&nbsp;
+<i>56</i>&nbsp;    @Provides
+<i>57</i>&nbsp;    public ArticlePresenter provideArticlePresenter(Context context, SharedPreferences pref)
+<i>58</i>&nbsp;    {
+<b class="fc"><i>59</i>&nbsp;        return new ArticlePresenter(context,pref);</b>
+<i>60</i>&nbsp;    }
+<i>61</i>&nbsp;
+<i>62</i>&nbsp;    @Provides
+<i>63</i>&nbsp;    public PushPresenter providePushPresenter(Context context, SharedPreferences pref)
+<i>64</i>&nbsp;    {
+<b class="fc"><i>65</i>&nbsp;        return new PushPresenter(context, pref);</b>
+<i>66</i>&nbsp;    }
+<i>67</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

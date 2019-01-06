@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>462</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
+    <line>94</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity java.lang.String imageToBase64(java.lang.String path)" />
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.Utility java.lang.String imageToBase64(java.lang.String path)" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused assignment</problem_class>
     <description>Variable &lt;code&gt;data&lt;/code&gt; initializer &lt;code&gt;null&lt;/code&gt; is redundant</description>
   </problem>

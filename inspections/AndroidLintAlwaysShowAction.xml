@@ -3,6 +3,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/menu/edit_delete_menu.xml</file>
     <line>8</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/menu/edit_delete_menu.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Usage of showAsAction=always</problem_class>
     <hints />
@@ -11,6 +12,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/menu/edit_delete_menu.xml</file>
     <line>13</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/menu/edit_delete_menu.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Usage of showAsAction=always</problem_class>
     <hints />

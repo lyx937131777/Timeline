@@ -1,0 +1,308 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: RegisterPresenter</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android.presenter</a> ]
+</div>
+
+<h1>Coverage Summary for Class: RegisterPresenter (com.timeline.android.presenter)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">RegisterPresenter</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (10/ 10)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">RegisterPresenter$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    66.7%
+  </span>
+  <span class="absValue">
+    (2/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    58.3%
+  </span>
+  <span class="absValue">
+    (7/ 12)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$1$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$1$1$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$1$2</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$1$3</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$MockitoMock$1010273404</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$MockitoMock$1010273404$auxiliary$m1jNylje</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$MockitoMock$1010273404$auxiliary$tljjqiBV</td>
+  </tr>
+  <tr>
+    <td class="name">RegisterPresenter$MockitoMock$1010273404$auxiliary$yYdNCC1v</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    50%
+  </span>
+  <span class="absValue">
+    (7/ 14)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    55.8%
+  </span>
+  <span class="absValue">
+    (24/ 43)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android.presenter;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.app.AlertDialog;
+<i>4</i>&nbsp;import android.content.Context;
+<i>5</i>&nbsp;import android.content.DialogInterface;
+<i>6</i>&nbsp;import android.content.SharedPreferences;
+<i>7</i>&nbsp;import android.preference.PreferenceManager;
+<i>8</i>&nbsp;import android.util.Log;
+<i>9</i>&nbsp;import android.util.Patterns;
+<i>10</i>&nbsp;import android.widget.Toast;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;import com.timeline.android.RegisterActivity;
+<i>13</i>&nbsp;import com.timeline.android.util.CheckUtil;
+<i>14</i>&nbsp;import com.timeline.android.util.HttpUtil;
+<i>15</i>&nbsp;import com.timeline.android.util.LogUtil;
+<i>16</i>&nbsp;import com.timeline.android.util.Utility;
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;import java.io.IOException;
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;import okhttp3.Call;
+<i>21</i>&nbsp;import okhttp3.Callback;
+<i>22</i>&nbsp;import okhttp3.Response;
+<i>23</i>&nbsp;
+<b class="fc"><i>24</i>&nbsp;public class RegisterPresenter</b>
+<i>25</i>&nbsp;{
+<i>26</i>&nbsp;    private Context context;
+<i>27</i>&nbsp;    private CheckUtil checkUtil;
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;
+<i>30</i>&nbsp;    public RegisterPresenter(Context context, CheckUtil checkUtil)
+<b class="fc"><i>31</i>&nbsp;    {</b>
+<b class="fc"><i>32</i>&nbsp;        this.context = context;</b>
+<b class="fc"><i>33</i>&nbsp;        this.checkUtil = checkUtil;</b>
+<b class="fc"><i>34</i>&nbsp;    }</b>
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    public void register(String username, String password, String confirm, String nickname)
+<i>37</i>&nbsp;    {
+<i>38</i>&nbsp;
+<b class="fc"><i>39</i>&nbsp;        if (!checkUtil.checkRegister(username,password,confirm,nickname))</b>
+<b class="fc"><i>40</i>&nbsp;            return;</b>
+<b class="fc"><i>41</i>&nbsp;        String address = HttpUtil.LocalAddress + &quot;/user/register&quot;;</b>
+<b class="fc"><i>42</i>&nbsp;        HttpUtil.registerRequest(address, username, password, nickname, new</b>
+<i>43</i>&nbsp;                Callback()
+<b class="fc"><i>44</i>&nbsp;        {</b>
+<i>45</i>&nbsp;            @Override
+<i>46</i>&nbsp;            public void onFailure(Call call, IOException e)
+<i>47</i>&nbsp;            {
+<b class="nc"><i>48</i>&nbsp;                e.printStackTrace();</b>
+<b class="nc"><i>49</i>&nbsp;                LogUtil.e(&quot;Register&quot;, &quot;Faled!!!!!!!!!&quot;);</b>
+<b class="nc"><i>50</i>&nbsp;            }</b>
+<i>51</i>&nbsp;
+<i>52</i>&nbsp;            @Override
+<i>53</i>&nbsp;            public void onResponse(Call call, Response response) throws IOException
+<i>54</i>&nbsp;            {
+<b class="fc"><i>55</i>&nbsp;                final String responseData = response.body().string();</b>
+<b class="fc"><i>56</i>&nbsp;                LogUtil.e(&quot;Register&quot;, &quot;源码 : &quot; + responseData);</b>
+<b class="fc"><i>57</i>&nbsp;                if (Utility.checkMessage(responseData).equals(&quot;true&quot;))</b>
+<i>58</i>&nbsp;                {
+<b class="nc"><i>59</i>&nbsp;                    ((RegisterActivity) context).runOnUiThread(new Runnable()</b>
+<b class="nc"><i>60</i>&nbsp;                    {</b>
+<i>61</i>&nbsp;                        @Override
+<i>62</i>&nbsp;                        public void run()
+<i>63</i>&nbsp;                        {
+<b class="nc"><i>64</i>&nbsp;                            new AlertDialog.Builder(context)</b>
+<b class="nc"><i>65</i>&nbsp;                                    .setTitle(&quot;提示&quot;)</b>
+<b class="nc"><i>66</i>&nbsp;                                    .setMessage(&quot;注册成功！&quot;)</b>
+<b class="nc"><i>67</i>&nbsp;                                    .setPositiveButton(&quot;确定&quot;, new</b>
+<i>68</i>&nbsp;                                            DialogInterface.OnClickListener()
+<b class="nc"><i>69</i>&nbsp;                                            {</b>
+<i>70</i>&nbsp;                                                @Override
+<i>71</i>&nbsp;                                                public void onClick(DialogInterface dialog, int
+<i>72</i>&nbsp;                                                        which)
+<i>73</i>&nbsp;                                                {
+<b class="nc"><i>74</i>&nbsp;                                                    ((RegisterActivity) context).finish();</b>
+<i>75</i>&nbsp;                                                }
+<b class="nc"><i>76</i>&nbsp;                                            }).show();</b>
+<i>77</i>&nbsp;                        }
+<i>78</i>&nbsp;                    });
+<b class="fc"><i>79</i>&nbsp;                } else if (Utility.checkErrorType(responseData).equals(&quot;userID_repeated&quot;))</b>
+<i>80</i>&nbsp;                {
+<b class="fc"><i>81</i>&nbsp;                    ((RegisterActivity) context).runOnUiThread(new Runnable()</b>
+<b class="fc"><i>82</i>&nbsp;                    {</b>
+<i>83</i>&nbsp;                        @Override
+<i>84</i>&nbsp;                        public void run()
+<i>85</i>&nbsp;                        {
+<b class="fc"><i>86</i>&nbsp;                            new AlertDialog.Builder(context)</b>
+<b class="fc"><i>87</i>&nbsp;                                    .setTitle(&quot;提示&quot;)</b>
+<b class="fc"><i>88</i>&nbsp;                                    .setMessage(&quot;该账户已被注册！&quot;)</b>
+<b class="fc"><i>89</i>&nbsp;                                    .setPositiveButton(&quot;确定&quot;, null)</b>
+<b class="fc"><i>90</i>&nbsp;                                    .show();</b>
+<b class="fc"><i>91</i>&nbsp;                        }</b>
+<i>92</i>&nbsp;                    });
+<i>93</i>&nbsp;                } else
+<i>94</i>&nbsp;                {
+<b class="nc"><i>95</i>&nbsp;                    ((RegisterActivity) context).runOnUiThread(new Runnable()</b>
+<b class="nc"><i>96</i>&nbsp;                    {</b>
+<i>97</i>&nbsp;                        @Override
+<i>98</i>&nbsp;                        public void run()
+<i>99</i>&nbsp;                        {
+<b class="nc"><i>100</i>&nbsp;                            new AlertDialog.Builder(context)</b>
+<b class="nc"><i>101</i>&nbsp;                                    .setTitle(&quot;提示&quot;)</b>
+<b class="nc"><i>102</i>&nbsp;                                    .setMessage(&quot;由于未知原因注册失败，请重试！&quot;)</b>
+<b class="nc"><i>103</i>&nbsp;                                    .setPositiveButton(&quot;确定&quot;, null)</b>
+<b class="nc"><i>104</i>&nbsp;                                    .show();</b>
+<i>105</i>&nbsp;                        }
+<i>106</i>&nbsp;                    });
+<i>107</i>&nbsp;                }
+<b class="fc"><i>108</i>&nbsp;            }</b>
+<i>109</i>&nbsp;        });
+<b class="fc"><i>110</i>&nbsp;    }</b>
+<i>111</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

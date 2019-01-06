@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.timeline.android.db.Article;
+import com.timeline.android.presenter.MainPresenter;
 import com.timeline.android.util.HttpUtil;
 import com.timeline.android.util.LogUtil;
 import com.timeline.android.util.Utility;
@@ -55,8 +56,9 @@ public class MainActivity extends AppCompatActivity
     private RecyclerView recyclerView;
     private ArticleAdapter articleAdapter;
     private SwipeRefreshLayout swipeRefresh;
-    private SharedPreferences pref;
     private CardView moreButton;
+
+    private MainPresenter mainPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -66,174 +68,40 @@ public class MainActivity extends AppCompatActivity
 
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
-//        if (actionBar != null)
-//        {
-//            actionBar.setDisplayHomeAsUpEnabled(true);
-//        }
 
         recyclerView =  findViewById(R.id.recycler_view);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         articleAdapter = new ArticleAdapter(articleList);
         recyclerView.setAdapter(articleAdapter);
-        refreshArticle();
 
         moreButton = findViewById(R.id.more_card);
+        swipeRefresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
+        swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
+
+        mainPresenter = new MainPresenter(this,articleList,articleAdapter, swipeRefresh);
+
         moreButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                moreArticle();
+                mainPresenter.moreArticle();
             }
         });
-
-        pref = PreferenceManager.getDefaultSharedPreferences(this);
-        swipeRefresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
-        swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
         swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener()
         {
             @Override
             public void onRefresh()
             {
-                refreshArticle();
+                mainPresenter.refreshArticle();
             }
         });
 
-    }
+        swipeRefresh.measure(0,0);
+        swipeRefresh.setRefreshing(true);
+        mainPresenter.refreshArticle();
 
-    private void moreArticle()
-    {
-        String address = HttpUtil.LocalAddress + "/article/more";
-        int articleID = articleList.get(articleList.size()-1).getArticleID();
-        HttpUtil.moreRequest(address,articleID , 8, new Callback()
-        {
-            @Override
-            public void onFailure(Call call, IOException e)
-            {
-                e.printStackTrace();
-                runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MainActivity.this, "服务器连接错误", Toast
-                                .LENGTH_LONG).show();
-                    }
-                });
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException
-            {
-                final String responsData = response.body().string();
-                LogUtil.e("MainActivity", responsData);
-                if (Utility.checkMessage(responsData).equals("true"))
-                {
-                    runOnUiThread(new Runnable()
-                    {
-                        @Override
-                        public void run()
-                        {
-                            moreArticle(responsData);
-                            articleAdapter.notifyDataSetChanged();
-                        }
-                    });
-                } else
-                {
-                    runOnUiThread(new Runnable()
-                    {
-                        @Override
-                        public void run()
-                        {
-                            Toast.makeText(MainActivity.this, "传输出错", Toast
-                                    .LENGTH_LONG).show();
-                        }
-                    });
-                }
-            }
-        });
-    }
-
-    private void refreshArticle()
-    {
-        String address = HttpUtil.LocalAddress + "/article/refresh";
-        HttpUtil.refreshRequest(address, 0,8, new Callback()
-        {
-            @Override
-            public void onFailure(Call call, IOException e)
-            {
-                e.printStackTrace();
-                runOnUiThread(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Toast.makeText(MainActivity.this, "服务器连接错误", Toast
-                                .LENGTH_LONG).show();
-                    }
-                });
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException
-            {
-                final String responsData = response.body().string();
-                LogUtil.e("MainActivity", responsData);
-                if (Utility.checkMessage(responsData).equals("true"))
-                {
-                    runOnUiThread(new Runnable()
-                    {
-                        @Override
-                        public void run()
-                        {
-                            initArticle(responsData);
-                            articleAdapter.notifyDataSetChanged();
-                            swipeRefresh.setRefreshing(false);
-                        }
-                    });
-                } else
-                {
-                    runOnUiThread(new Runnable()
-                    {
-                        @Override
-                        public void run()
-                        {
-                            Toast.makeText(MainActivity.this, "传输出错", Toast
-                                    .LENGTH_LONG).show();
-                        }
-                    });
-                }
-            }
-        });
-    }
-
-    private void initArticle(String responsData)
-    {
-        articleList.clear();
-        articleList.addAll(Utility.handleArticleList(responsData));
-        Collections.sort(articleList, new Comparator<Article>()
-        {
-            @Override
-            public int compare(Article o1, Article o2)
-            {
-                return o2.getArticleID() - o1.getArticleID();
-            }
-        });
-    }
-
-    private void moreArticle(String responsData)
-    {
-        articleList.addAll(Utility.handleArticleList(responsData));
-        Collections.sort(articleList, new Comparator<Article>()
-        {
-            @Override
-            public int compare(Article o1, Article o2)
-            {
-                return o2.getArticleID() - o1.getArticleID();
-            }
-        });
     }
 
     @Override
@@ -267,9 +135,19 @@ public class MainActivity extends AppCompatActivity
             case 1:
                 if(resultCode == RESULT_OK)
                 {
-                    refreshArticle();
+                    mainPresenter.refreshArticle();
                 }
                 break;
         }
+    }
+
+    public MainPresenter getMainPresenter()
+    {
+        return mainPresenter;
+    }
+
+    public void setMainPresenter(MainPresenter mainPresenter)
+    {
+        this.mainPresenter = mainPresenter;
     }
 }

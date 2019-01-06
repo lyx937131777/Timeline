@@ -3,6 +3,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
     <line>46</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Attribute unused on older versions</problem_class>
     <hints />

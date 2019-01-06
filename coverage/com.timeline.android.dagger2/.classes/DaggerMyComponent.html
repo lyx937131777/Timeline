@@ -1,0 +1,193 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: DaggerMyComponent</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android.dagger2</a> ]
+</div>
+
+<h1>Coverage Summary for Class: DaggerMyComponent (com.timeline.android.dagger2)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">DaggerMyComponent</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (9/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (19/ 19)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">DaggerMyComponent$Builder</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (4/ 4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (8/ 10)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (13/ 13)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    93.1%
+  </span>
+  <span class="absValue">
+    (27/ 29)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android.dagger2;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Context;
+<i>4</i>&nbsp;import android.content.SharedPreferences;
+<i>5</i>&nbsp;import com.timeline.android.presenter.ArticlePresenter;
+<i>6</i>&nbsp;import com.timeline.android.presenter.LoginPresenter;
+<i>7</i>&nbsp;import com.timeline.android.presenter.PushPresenter;
+<i>8</i>&nbsp;import com.timeline.android.presenter.RegisterPresenter;
+<i>9</i>&nbsp;import com.timeline.android.util.CheckUtil;
+<i>10</i>&nbsp;import javax.annotation.Generated;
+<i>11</i>&nbsp;import javax.inject.Provider;
+<i>12</i>&nbsp;
+<b class="fc"><i>13</i>&nbsp;@Generated(&quot;dagger.internal.codegen.ComponentProcessor&quot;)</b>
+<b class="fc"><i>14</i>&nbsp;public final class DaggerMyComponent implements MyComponent {</b>
+<i>15</i>&nbsp;  private Provider&lt;Context&gt; provideContextProvider;
+<i>16</i>&nbsp;  private Provider&lt;SharedPreferences&gt; provideSharedPreferencesProvider;
+<i>17</i>&nbsp;  private Provider&lt;CheckUtil&gt; provideCheckUtilProvider;
+<i>18</i>&nbsp;  private Provider&lt;LoginPresenter&gt; provideLoginPresenterProvider;
+<i>19</i>&nbsp;  private Provider&lt;RegisterPresenter&gt; provideRegisterPresenterProvider;
+<i>20</i>&nbsp;  private Provider&lt;ArticlePresenter&gt; provideArticlePresenterProvider;
+<i>21</i>&nbsp;  private Provider&lt;PushPresenter&gt; providePushPresenterProvider;
+<i>22</i>&nbsp;
+<b class="fc"><i>23</i>&nbsp;  private DaggerMyComponent(Builder builder) {  </b>
+<b class="fc"><i>24</i>&nbsp;    assert builder != null;</b>
+<b class="fc"><i>25</i>&nbsp;    initialize(builder);</b>
+<b class="fc"><i>26</i>&nbsp;  }</b>
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;  public static Builder builder() {  
+<b class="fc"><i>29</i>&nbsp;    return new Builder();</b>
+<i>30</i>&nbsp;  }
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;  private void initialize(final Builder builder) {  
+<b class="fc"><i>33</i>&nbsp;    this.provideContextProvider = MyModule_ProvideContextFactory.create(builder.myModule);</b>
+<b class="fc"><i>34</i>&nbsp;    this.provideSharedPreferencesProvider = MyModule_ProvideSharedPreferencesFactory.create(builder.myModule, provideContextProvider);</b>
+<b class="fc"><i>35</i>&nbsp;    this.provideCheckUtilProvider = MyModule_ProvideCheckUtilFactory.create(builder.myModule, provideContextProvider);</b>
+<b class="fc"><i>36</i>&nbsp;    this.provideLoginPresenterProvider = MyModule_ProvideLoginPresenterFactory.create(builder.myModule, provideContextProvider, provideSharedPreferencesProvider, provideCheckUtilProvider);</b>
+<b class="fc"><i>37</i>&nbsp;    this.provideRegisterPresenterProvider = MyModule_ProvideRegisterPresenterFactory.create(builder.myModule, provideContextProvider, provideCheckUtilProvider);</b>
+<b class="fc"><i>38</i>&nbsp;    this.provideArticlePresenterProvider = MyModule_ProvideArticlePresenterFactory.create(builder.myModule, provideContextProvider, provideSharedPreferencesProvider);</b>
+<b class="fc"><i>39</i>&nbsp;    this.providePushPresenterProvider = MyModule_ProvidePushPresenterFactory.create(builder.myModule, provideContextProvider, provideSharedPreferencesProvider);</b>
+<b class="fc"><i>40</i>&nbsp;  }</b>
+<i>41</i>&nbsp;
+<i>42</i>&nbsp;  @Override
+<i>43</i>&nbsp;  public LoginPresenter loginPresenter() {  
+<b class="fc"><i>44</i>&nbsp;    return provideLoginPresenterProvider.get();</b>
+<i>45</i>&nbsp;  }
+<i>46</i>&nbsp;
+<i>47</i>&nbsp;  @Override
+<i>48</i>&nbsp;  public RegisterPresenter registerPresenter() {  
+<b class="fc"><i>49</i>&nbsp;    return provideRegisterPresenterProvider.get();</b>
+<i>50</i>&nbsp;  }
+<i>51</i>&nbsp;
+<i>52</i>&nbsp;  @Override
+<i>53</i>&nbsp;  public ArticlePresenter articlePresenter() {  
+<b class="fc"><i>54</i>&nbsp;    return provideArticlePresenterProvider.get();</b>
+<i>55</i>&nbsp;  }
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;  @Override
+<i>58</i>&nbsp;  public PushPresenter pushPresenter() {  
+<b class="fc"><i>59</i>&nbsp;    return providePushPresenterProvider.get();</b>
+<i>60</i>&nbsp;  }
+<i>61</i>&nbsp;
+<b class="fc"><i>62</i>&nbsp;  public static final class Builder {</b>
+<i>63</i>&nbsp;    private MyModule myModule;
+<i>64</i>&nbsp;  
+<b class="fc"><i>65</i>&nbsp;    private Builder() {  </b>
+<b class="fc"><i>66</i>&nbsp;    }</b>
+<i>67</i>&nbsp;  
+<i>68</i>&nbsp;    public MyComponent build() {  
+<b class="fc"><i>69</i>&nbsp;      if (myModule == null) {</b>
+<b class="nc"><i>70</i>&nbsp;        throw new IllegalStateException(&quot;myModule must be set&quot;);</b>
+<i>71</i>&nbsp;      }
+<b class="fc"><i>72</i>&nbsp;      return new DaggerMyComponent(this);</b>
+<i>73</i>&nbsp;    }
+<i>74</i>&nbsp;  
+<i>75</i>&nbsp;    public Builder myModule(MyModule myModule) {  
+<b class="fc"><i>76</i>&nbsp;      if (myModule == null) {</b>
+<b class="nc"><i>77</i>&nbsp;        throw new NullPointerException(&quot;myModule&quot;);</b>
+<i>78</i>&nbsp;      }
+<b class="fc"><i>79</i>&nbsp;      this.myModule = myModule;</b>
+<b class="fc"><i>80</i>&nbsp;      return this;</b>
+<i>81</i>&nbsp;    }
+<i>82</i>&nbsp;  }
+<i>83</i>&nbsp;}
+<i>84</i>&nbsp;
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

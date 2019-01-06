@@ -1,53 +1,24 @@
 package com.timeline.android.util;
 
 import android.text.TextUtils;
-import android.util.Log;
+import android.util.Base64;
 
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.timeline.android.db.Article;
-import com.timeline.android.db.User;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.litepal.crud.DataSupport;
 
-import java.util.ArrayList;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 public class Utility
 {
-    public static boolean handleUserResponse(String response)
-    {
-        if (!TextUtils.isEmpty(response))
-        {
-            try
-            {
-                DataSupport.deleteAll(User.class);
-                JSONArray allUsers = new JSONArray(response);
-                for (int i = 0; i < allUsers.length(); i++)
-                {
-                    JSONObject userObject = allUsers.getJSONObject(i);
-                    User user = new User();
-                    user.setNickname(userObject.getString("nickname"));
-                    user.setUserID(userObject.getString("userID"));
-                    user.setPassword(userObject.getString("password"));
-                    Log.e("test", user.getUserID());
-                    Log.e("test", user.getPassword());
-                    Log.e("test", user.getNickname());
-                    user.save();
-                }
-                return true;
-            } catch (JSONException e)
-            {
-                e.printStackTrace();
-            }
-        }
-        return false;
-    }
-
 
     //返回Json数据的message值
     public static String checkMessage(String response)
@@ -91,34 +62,6 @@ public class Utility
         return "000";
     }
 
-    public static boolean searchUser(String response)
-    {
-        if (!TextUtils.isEmpty(response))
-        {
-            try
-            {
-                JSONArray allUsers = new JSONArray(response);
-                for (int i = 0; i < allUsers.length(); i++)
-                {
-                    JSONObject userObject = allUsers.getJSONObject(i);
-                    User user = new User();
-                    user.setNickname(userObject.getString("nickname"));
-                    user.setUserID(userObject.getString("userID"));
-                    user.setPassword(userObject.getString("password"));
-                    Log.e("test", user.getUserID());
-                    Log.e("test", user.getPassword());
-                    Log.e("test", user.getNickname());
-                    user.save();
-                }
-                return true;
-            } catch (JSONException e)
-            {
-                e.printStackTrace();
-            }
-        }
-        return false;
-    }
-
     //refresh more
     public static List<Article> handleArticleList(String response)
     {
@@ -136,5 +79,41 @@ public class Utility
             }
         }
         return null;
+    }
+
+    /**
+     * 将图片转换成Base64编码的字符串
+     * @param path
+     * @return base64编码的字符串
+     */
+    public static String imageToBase64(String path){
+        if(TextUtils.isEmpty(path)){
+            return null;
+        }
+        InputStream is = null;
+        byte[] data = null;
+        String result = null;
+        try{
+            is = new FileInputStream(path);
+            //创建一个字符流大小的数组。
+            data = new byte[is.available()];
+            //写入数组
+            is.read(data);
+            //用默认的编码格式进行编码
+            result = Base64.encodeToString(data,Base64.NO_WRAP);
+        }catch (IOException e){
+            e.printStackTrace();
+        }finally {
+            if(is != null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+        LogUtil.e("Push:base64",result.length()+"      "+ result);
+        return result;
     }
 }

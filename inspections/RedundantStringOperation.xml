@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>130</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivityTest void onRequestPermissionsResultRefuse()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant String operation</problem_class>
+    <description>Call to &lt;code&gt;toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+</problems>
+

@@ -17,6 +17,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.timeline.android.dagger2.DaggerMyComponent;
+import com.timeline.android.dagger2.MyComponent;
+import com.timeline.android.dagger2.MyModule;
+import com.timeline.android.presenter.LoginPresenter;
+import com.timeline.android.util.CheckUtil;
 import com.timeline.android.util.HttpUtil;
 import com.timeline.android.util.LogUtil;
 import com.timeline.android.util.Utility;
@@ -43,8 +48,7 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
     private boolean isOpen = false;
     String username_text, password_text;
 
-    private SharedPreferences pref;
-    private SharedPreferences.Editor editor;
+    private LoginPresenter loginPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -59,7 +63,11 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
         {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-        pref = PreferenceManager.getDefaultSharedPreferences(this);
+
+        MyComponent myComponent = DaggerMyComponent.builder().myModule(new MyModule(this)).build();
+        loginPresenter = myComponent.loginPresenter();
+//        loginPresenter = new LoginPresenter(this,PreferenceManager.getDefaultSharedPreferences(this), new CheckUtil(this));
+
 //
 //        username_text = pref.getString("userID", null);
 //        password_text = pref.getString("password", null);
@@ -177,92 +185,16 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
 
             // 密码可见与不可见的切换
             case R.id.bt_pwd_eye:
-                if (isOpen)
-                {
-                    isOpen = false;
-                } else
-                {
-                    isOpen = true;
-                }
+                isOpen = !isOpen;
                 // 默认isOpen是false,密码不可见
                 changePwdOpenOrClose(isOpen);
                 break;
 
-            // TODO 登录按钮
+            // 登录按钮
             case R.id.bt_login:
                 username_text = username.getText().toString();
                 password_text = password.getText().toString();
-
-                if (!username_text.matches(Patterns.EMAIL_ADDRESS.toString()))
-                {
-                    Toast.makeText(LoginActivity.this, "邮箱格式不正确", Toast.LENGTH_LONG).show();
-                } else if (password_text.length() < 6)
-                {
-                    Toast.makeText(LoginActivity.this, "密码位数不正确", Toast.LENGTH_LONG).show();
-                } else
-                {
-                    LogUtil.e("Login", "发送登录请求");
-                    String address = HttpUtil.LocalAddress + "/user/login";
-                    HttpUtil.loginRequest(address, username_text, password_text, new Callback()
-                    {
-                        @Override
-                        public void onFailure(Call call, IOException e)
-                        {
-                            e.printStackTrace();
-                            runOnUiThread(new Runnable()
-                            {
-                                @Override
-                                public void run()
-                                {
-                                    Toast.makeText(LoginActivity.this, "服务器连接错误", Toast
-                                            .LENGTH_LONG).show();
-                                }
-                            });
-                        }
-
-                        @Override
-                        public void onResponse(Call call, Response response) throws IOException
-                        {
-                            final String responsData = response.body().string();
-                            LogUtil.e("Login", responsData);
-                            if (Utility.checkMessage(responsData).equals("true"))
-                            {
-                                editor = pref.edit();
-                                editor.putString("userID", username_text);
-                                editor.putString("password", password_text);
-                                editor.putString("nickname",Utility.checkString(responsData,"nickname"));
-                                editor.putString("latest", String.valueOf(System.currentTimeMillis()));
-                                editor.apply();
-                                Intent intent_login = new Intent(LoginActivity.this, MainActivity.class);
-                                startActivity(intent_login);
-                                finish();
-                            } else if(Utility.checkErrorType(responsData).equals("invalid_userID_or_password"))
-                            {
-                                runOnUiThread(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        Toast.makeText(LoginActivity.this, "用户名或密码错误", Toast
-                                                .LENGTH_LONG).show();
-                                    }
-                                });
-                            }else if(Utility.checkErrorType(responsData).equals("query_error"))
-                            {
-                                runOnUiThread(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        Toast.makeText(LoginActivity.this, "数据库发生错误", Toast
-                                                .LENGTH_LONG).show();
-                                    }
-                                });
-                            }
-                        }
-                    });
-
-                }
+                loginPresenter.login(username_text,password_text);
                 break;
 
             // 注册按钮
@@ -297,5 +229,15 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener
             // 设置EditText的密码隐藏
             password.setTransformationMethod(PasswordTransformationMethod.getInstance());
         }
+    }
+
+    public LoginPresenter getLoginPresenter()
+    {
+        return loginPresenter;
+    }
+
+    public void setLoginPresenter(LoginPresenter loginPresenter)
+    {
+        this.loginPresenter = loginPresenter;
     }
 }

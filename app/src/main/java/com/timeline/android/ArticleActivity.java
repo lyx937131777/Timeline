@@ -7,16 +7,23 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.timeline.android.dagger2.DaggerMyComponent;
+import com.timeline.android.dagger2.MyComponent;
+import com.timeline.android.dagger2.MyModule;
 import com.timeline.android.db.Article;
+import com.timeline.android.presenter.ArticlePresenter;
 import com.timeline.android.util.HttpUtil;
+import com.timeline.android.util.LogUtil;
 import com.timeline.android.util.Utility;
 
 import java.io.IOException;
@@ -32,9 +39,11 @@ public class ArticleActivity extends AppCompatActivity
     private TextView dateText;
     private TextView contentText;
     private ImageView imageView;
+    private CardView imageCard;
 
-    private SharedPreferences pref;
     private Article article;
+
+    private ArticlePresenter articlePresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -50,12 +59,12 @@ public class ArticleActivity extends AppCompatActivity
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        pref = PreferenceManager.getDefaultSharedPreferences(this);
         article = (Article)getIntent().getSerializableExtra("article");
         authorText = findViewById(R.id.author);
         dateText = findViewById(R.id.date);
         contentText = findViewById(R.id.content);
         imageView = findViewById(R.id.img);
+        imageCard = findViewById(R.id.img_card);
 
         authorText.setText(article.getNickname());
 //        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd  HH:mm");
@@ -63,19 +72,24 @@ public class ArticleActivity extends AppCompatActivity
         dateText.setText(article.timeStamp);
         contentText.setText(article.getContent());
         Glide.with(this).load(article.getImageURL()).into(imageView);
+        if(article.getImageURL().equals("empty"))
+        {
+            imageCard.setVisibility(View.GONE);
+        }
 
+        MyComponent myComponent = DaggerMyComponent.builder().myModule(new MyModule(this)).build();
+        articlePresenter = myComponent.articlePresenter();
     }
 
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        article = (Article)getIntent().getSerializableExtra("article");
-        pref = PreferenceManager.getDefaultSharedPreferences(this);
-        if(article.getUserID().equals(pref.getString("userID","")))
+        if(articlePresenter.createMenu())
         {
             getMenuInflater().inflate(R.menu.edit_delete_menu, menu);
         }
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -85,56 +99,11 @@ public class ArticleActivity extends AppCompatActivity
                 finish();
                 break;
             case R.id.edit:
-                Intent intent = new Intent(ArticleActivity.this,PushActivity.class);
-                intent.putExtra("type","edit");
-                intent.putExtra("article",article);
-                startActivityForResult(intent,1);
+                articlePresenter.edit();
 //                Toast.makeText(this,"edit",Toast.LENGTH_LONG).show();
                 break;
             case R.id.delete:
-                String address = HttpUtil.LocalAddress + "/article/delete";
-                HttpUtil.deleteRequest(address, article.getArticleID(), new Callback()
-                {
-                    @Override
-                    public void onFailure(Call call, IOException e)
-                    {
-                        e.printStackTrace();
-                    }
-
-                    @Override
-                    public void onResponse(Call call, Response response) throws IOException
-                    {
-                        final String responseData = response.body().string();
-                        Log.e("PushActivity:data", responseData);
-                        if (Utility.checkMessage(responseData).equals("true"))
-                        {
-                            runOnUiThread(new Runnable()
-                            {
-                                @Override
-                                public void run()
-                                {
-                                    new AlertDialog.Builder(ArticleActivity.this)
-                                            .setTitle("提示")
-                                            .setMessage("删除成功")
-                                            .setPositiveButton("确定", new
-                                                    DialogInterface.OnClickListener()
-                                                    {
-                                                        @Override
-                                                        public void onClick(DialogInterface
-                                                                                    dialog,
-                                                                            int which)
-                                                        {
-                                                            Intent intent = new Intent();
-                                                            setResult(RESULT_OK, intent);
-                                                            finish();
-                                                        }
-                                                    })
-                                            .show();
-                                }
-                            });
-                        }
-                    }
-                });
+                articlePresenter.delete();
                 break;
         }
         return true;
@@ -154,5 +123,15 @@ public class ArticleActivity extends AppCompatActivity
                 }
                 break;
         }
+    }
+
+    public ArticlePresenter getArticlePresenter()
+    {
+        return articlePresenter;
+    }
+
+    public void setArticlePresenter(ArticlePresenter articlePresenter)
+    {
+        this.articlePresenter = articlePresenter;
     }
 }

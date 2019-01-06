@@ -3,6 +3,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>51</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -11,6 +12,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>41</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -19,6 +21,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>137</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -27,6 +30,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>106</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -35,6 +39,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>49</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -43,6 +48,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>46</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -51,6 +57,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>20</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -59,6 +66,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>18</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -67,6 +75,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>148</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -75,6 +84,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>98</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -83,6 +93,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>87</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -91,6 +102,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>59</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -99,6 +111,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>120</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -107,6 +120,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>107</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -115,6 +129,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>70</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -123,6 +138,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>30</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -131,6 +147,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>119</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -139,6 +156,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>14</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -147,6 +165,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>62</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -155,6 +174,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>138</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -163,6 +183,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>150</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -171,6 +192,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>144</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -179,6 +201,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>78</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -187,6 +210,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>85</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -195,6 +219,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>147</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -203,6 +228,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>86</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -211,6 +237,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>75</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -219,6 +246,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>96</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -227,6 +255,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>121</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -235,6 +264,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>29</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -243,6 +273,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>89</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -251,6 +282,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>97</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -259,6 +291,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>56</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -267,6 +300,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>94</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -275,6 +309,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>124</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -283,6 +318,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>130</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -291,6 +327,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>131</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -299,6 +336,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>142</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -307,6 +345,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>91</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -315,6 +354,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>34</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -323,6 +363,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>143</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -331,6 +372,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>116</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -339,6 +381,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>117</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -347,6 +390,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>135</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -355,6 +399,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>79</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -363,6 +408,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>12</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -371,6 +417,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>133</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -379,6 +426,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>35</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -387,6 +435,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>61</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -395,6 +444,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>43</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -403,6 +453,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>24</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -411,6 +462,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>64</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -419,6 +471,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>146</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -427,6 +480,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>83</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -435,6 +489,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>102</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -443,6 +498,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>50</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -451,6 +507,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>31</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -459,6 +516,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>72</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -467,6 +525,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>122</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -475,6 +534,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>8</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -483,6 +543,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>52</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -491,6 +552,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>57</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -499,6 +561,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>16</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -507,6 +570,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>108</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -515,6 +579,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>13</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -523,6 +588,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>84</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -531,6 +597,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>53</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -539,6 +606,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>58</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -547,6 +615,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>39</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -555,6 +624,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>67</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -563,6 +633,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>93</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -571,6 +642,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>68</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -579,6 +651,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>26</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -587,6 +660,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>28</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -595,6 +669,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>134</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -603,6 +678,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>99</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -611,6 +687,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>110</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -619,6 +696,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>111</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -627,6 +705,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>81</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -635,6 +714,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>9</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -643,6 +723,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>140</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -651,6 +732,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>129</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -659,6 +741,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>40</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -667,6 +750,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>36</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -675,6 +759,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>105</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -683,6 +768,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>118</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -691,6 +777,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>149</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -699,6 +786,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>77</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -707,6 +795,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>92</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -715,6 +804,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>128</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -723,6 +813,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>109</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -731,6 +822,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>141</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -739,6 +831,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>123</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -747,6 +840,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>73</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -755,6 +849,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>136</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -763,6 +858,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>44</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -771,6 +867,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>19</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -779,6 +876,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>21</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -787,6 +885,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>22</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -795,6 +894,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>151</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -803,6 +903,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>38</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -811,6 +912,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>103</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -819,6 +921,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>114</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -827,6 +930,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>27</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -835,6 +939,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>33</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -843,6 +948,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>65</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -851,6 +957,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>54</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -859,6 +966,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>90</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -867,6 +975,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>82</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -875,6 +984,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>63</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -883,6 +993,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>17</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -891,6 +1002,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>23</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -899,6 +1011,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>71</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -907,6 +1020,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>25</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -915,6 +1029,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>60</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -923,6 +1038,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>80</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -931,6 +1047,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>104</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -939,6 +1056,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>37</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -947,6 +1065,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>76</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -955,6 +1074,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>126</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -963,6 +1083,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>95</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -971,6 +1092,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>42</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -979,6 +1101,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>48</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -987,6 +1110,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>132</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -995,6 +1119,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>15</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1003,6 +1128,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>88</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1011,6 +1137,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>74</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1019,6 +1146,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>100</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1027,6 +1155,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>115</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1035,6 +1164,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>112</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1043,6 +1173,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>113</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1051,6 +1182,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>11</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1059,6 +1191,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>139</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1067,6 +1200,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>125</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1075,6 +1209,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>69</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1083,6 +1218,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>145</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1091,6 +1227,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>66</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1099,6 +1236,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>32</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1107,6 +1245,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>127</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1115,6 +1254,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>55</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1123,6 +1263,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>47</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1131,6 +1272,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>7</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1139,6 +1281,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>45</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
@@ -1147,26 +1290,29 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
     <line>10</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
     <description>&lt;html&gt;The resource &lt;code&gt;R.color.yellow&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
-    <hints />
-    <description>&lt;html&gt;The resource &lt;code&gt;R.drawable.profile&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
-  </problem>
-  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/drawable/add.png</file>
     <line>1</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/add.png" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
     <hints />
     <description>&lt;html&gt;The resource &lt;code&gt;R.drawable.add&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+    <hints />
+    <description>&lt;html&gt;The resource &lt;code&gt;R.drawable.profile&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
   </problem>
 </problems>
 

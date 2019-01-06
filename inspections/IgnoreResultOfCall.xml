@@ -2,28 +2,28 @@
 <problems>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>257</line>
+    <line>206</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity$8 void onClick(android.view.View v)" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity$3 void onClick(android.view.View v)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Result of method call ignored</problem_class>
     <description>Result of &lt;code&gt;File.delete()&lt;/code&gt; is ignored #loc</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>259</line>
+    <line>208</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity$8 void onClick(android.view.View v)" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity$3 void onClick(android.view.View v)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Result of method call ignored</problem_class>
     <description>Result of &lt;code&gt;File.createNewFile()&lt;/code&gt; is ignored #loc</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>469</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
+    <line>101</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity java.lang.String imageToBase64(java.lang.String path)" />
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.Utility java.lang.String imageToBase64(java.lang.String path)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Result of method call ignored</problem_class>
     <description>Result of &lt;code&gt;InputStream.read()&lt;/code&gt; is ignored #loc</description>
   </problem>

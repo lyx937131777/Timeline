@@ -1,0 +1,161 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CheckUtil</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android.util</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CheckUtil (com.timeline.android.util)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CheckUtil</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (23/ 23)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">CheckUtil$MockitoMock$1827056179</td>
+  </tr>
+  <tr>
+    <td class="name">CheckUtil$MockitoMock$1827056179$auxiliary$GdmIpYvJ</td>
+  </tr>
+  <tr>
+    <td class="name">CheckUtil$MockitoMock$1827056179$auxiliary$ggwQAUIo</td>
+  </tr>
+  <tr>
+    <td class="name">CheckUtil$MockitoMock$1827056179$auxiliary$m0s0r4ZJ</td>
+  </tr>
+  <tr>
+    <td class="name">CheckUtil$MockitoMock$1827056179$auxiliary$PdVE41LC</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (23/ 23)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android.util;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Context;
+<i>4</i>&nbsp;import android.util.Patterns;
+<i>5</i>&nbsp;import android.widget.Toast;
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;public class CheckUtil
+<i>8</i>&nbsp;{
+<i>9</i>&nbsp;    private Context context;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;    public CheckUtil(Context context)
+<b class="fc"><i>12</i>&nbsp;    {</b>
+<b class="fc"><i>13</i>&nbsp;        this.context = context;</b>
+<b class="fc"><i>14</i>&nbsp;    }</b>
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;    public boolean checkLogin(String username, String password)
+<i>17</i>&nbsp;    {
+<b class="fc"><i>18</i>&nbsp;        if (!(username.matches(Patterns.EMAIL_ADDRESS.toString())))</b>
+<i>19</i>&nbsp;        {
+<b class="fc"><i>20</i>&nbsp;            Toast.makeText(context, &quot;邮箱格式不正确&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>21</i>&nbsp;            return false;</b>
+<i>22</i>&nbsp;        }
+<b class="fc"><i>23</i>&nbsp;        if (password.length() &lt; 6)</b>
+<i>24</i>&nbsp;        {
+<b class="fc"><i>25</i>&nbsp;            Toast.makeText(context, &quot;密码位数不正确&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>26</i>&nbsp;            return false;</b>
+<i>27</i>&nbsp;        }
+<b class="fc"><i>28</i>&nbsp;        return true;</b>
+<i>29</i>&nbsp;    }
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    public boolean checkRegister(String username, String password, String confirmPassword, String nickname)
+<i>32</i>&nbsp;    {
+<i>33</i>&nbsp;        //确认密码不正确、邮箱格式不正确、昵称已被占用
+<b class="fc"><i>34</i>&nbsp;        if (!username.matches(Patterns.EMAIL_ADDRESS.toString()))</b>
+<i>35</i>&nbsp;        {
+<b class="fc"><i>36</i>&nbsp;            Toast.makeText(context, &quot;请输入正确的邮箱&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>37</i>&nbsp;            return false;</b>
+<i>38</i>&nbsp;        }
+<b class="fc"><i>39</i>&nbsp;        if (password.length() &lt; 6)</b>
+<i>40</i>&nbsp;        {
+<b class="fc"><i>41</i>&nbsp;            Toast.makeText(context, &quot;请输入至少6位的密码&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>42</i>&nbsp;            return false;</b>
+<i>43</i>&nbsp;        }
+<b class="fc"><i>44</i>&nbsp;        if (!password.equals(confirmPassword))</b>
+<i>45</i>&nbsp;        {
+<b class="fc"><i>46</i>&nbsp;            Toast.makeText(context, &quot;两次密码输入不一致&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>47</i>&nbsp;            return false;</b>
+<i>48</i>&nbsp;        }
+<b class="fc"><i>49</i>&nbsp;        if (nickname.length() &lt; 1)</b>
+<i>50</i>&nbsp;        {
+<b class="fc"><i>51</i>&nbsp;            Toast.makeText(context, &quot;昵称不得为空&quot;, Toast.LENGTH_LONG).show();</b>
+<b class="fc"><i>52</i>&nbsp;            return false;</b>
+<i>53</i>&nbsp;        }
+<b class="fc"><i>54</i>&nbsp;        return true;</b>
+<i>55</i>&nbsp;    }
+<i>56</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

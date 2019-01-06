@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/LoginActivity.java</file>
-    <line>180</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>42</line>
     <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivity void onClick(android.view.View v)" />
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenter boolean createMenu()" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'if' statement</problem_class>
     <description>&lt;code&gt;if&lt;/code&gt; statement can be simplified #loc</description>
   </problem>

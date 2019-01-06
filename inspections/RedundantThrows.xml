@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenterTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
+    <line>74</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.LoginPresenterTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/MainPresenterTest.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenterTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/MainPresenterTest.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.MainPresenterTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>75</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenterTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenterTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>82</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.CheckUtilTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>74</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.CheckUtilTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/LoginActivityTest.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/LoginActivityTest.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.RegisterActivityTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/RegisterActivityTest.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.RegisterActivityTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.MainActivityTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/MainActivityTest.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.MainActivityTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.ArticleActivityTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/ArticleActivityTest.java</file>
+    <line>57</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.ArticleActivityTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java</file>
+    <line>76</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenterTest void delete()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="InterruptedException" />
+    </hints>
+    <description>The declared exception &lt;code&gt;InterruptedException&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenterTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/ArticlePresenterTest.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.ArticlePresenterTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivityTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/PushActivityTest.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivityTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/PushPresenterTest.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenterTest void setUp()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/PushPresenterTest.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenterTest void tearDown()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
+    <hints>
+      <hint value="Exception" />
+    </hints>
+    <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  </problem>
+</problems>
+

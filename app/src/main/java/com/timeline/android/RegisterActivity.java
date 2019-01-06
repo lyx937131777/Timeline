@@ -15,6 +15,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.timeline.android.dagger2.DaggerMyComponent;
+import com.timeline.android.dagger2.MyComponent;
+import com.timeline.android.dagger2.MyModule;
+import com.timeline.android.presenter.RegisterPresenter;
+import com.timeline.android.util.CheckUtil;
 import com.timeline.android.util.HttpUtil;
 import com.timeline.android.util.LogUtil;
 import com.timeline.android.util.Utility;
@@ -35,6 +40,8 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
     private Button bt_register;
     String username_text, password_text, confirm_password_text, nickname_text;
 
+    private RegisterPresenter registerPresenter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -48,6 +55,9 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
         {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+        MyComponent myComponent = DaggerMyComponent.builder().myModule(new MyModule(this)).build();
+        registerPresenter = myComponent.registerPresenter();
+//        registerPresenter = new RegisterPresenter(this, new CheckUtil(this));
     }
 
     @Override
@@ -221,104 +231,22 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
                 password_text = password.getText().toString();
                 confirm_password_text = confirm_password.getText().toString();
                 nickname_text = nickname.getText().toString();
-                //确认密码不正确、邮箱格式不正确、昵称已被占用
-                if (!username_text.matches(Patterns.EMAIL_ADDRESS.toString()))
-                {
-                    Toast.makeText(RegisterActivity.this, "请输入正确的邮箱", Toast.LENGTH_LONG).show();
-                } else if (password_text.length() < 6)
-                {
-                    Toast.makeText(RegisterActivity.this, "请输入至少6位的密码", Toast.LENGTH_LONG).show();
-                } else if (!password.getText().toString().equals(confirm_password.getText()
-                        .toString()))
-                {
-                    Toast.makeText(RegisterActivity.this, "两次密码输入不一致", Toast.LENGTH_LONG).show();
-                } else if (nickname_text.length() < 1)
-                {
-                    Toast.makeText(RegisterActivity.this, "昵称不得为空", Toast.LENGTH_LONG).show();
-                } else
-                {
-                    Log.e("Register", nickname_text);
-                    String address = HttpUtil.LocalAddress + "/user/register";
-                    HttpUtil.registerRequest(address, username_text, password_text,
-                            nickname_text, new Callback()
-                    {
-                        @Override
-                        public void onFailure(Call call, IOException e)
-                        {
-                            e.printStackTrace();
-                            LogUtil.e("Register", "Faled!!!!!!!!!");
-                        }
-
-                        @Override
-                        public void onResponse(Call call, Response response) throws
-                                IOException
-                        {
-                            final String responseData = response.body().string();
-                            LogUtil.e("Register", "源码 : " + responseData);
-                            if (Utility.checkMessage(responseData).equals("true"))
-                            {
-                                runOnUiThread(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        new AlertDialog.Builder(RegisterActivity.this)
-                                                .setTitle("提示")
-                                                .setMessage("注册成功！")
-                                                .setPositiveButton("确定", new
-                                                        DialogInterface.OnClickListener()
-                                                        {
-                                                            @Override
-                                                            public void onClick(DialogInterface
-                                                                                        dialog,
-                                                                                int which)
-                                                            {
-                                                                finish();
-                                                            }
-                                                        })
-                                                .show();
-                                    }
-                                });
-
-                            } else if (Utility.checkErrorType(responseData).equals("userID_repeated"))
-                            {
-                                runOnUiThread(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        new AlertDialog.Builder(RegisterActivity.this)
-                                                .setTitle("提示")
-                                                .setMessage("该账户已被注册！")
-                                                .setPositiveButton("确定", null)
-                                                .show();
-                                    }
-                                });
-                            } else
-                            {
-                                runOnUiThread(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        new AlertDialog.Builder(RegisterActivity.this)
-                                                .setTitle("提示")
-                                                .setMessage("由于未知原因注册失败，请重试！")
-                                                .setPositiveButton("确定", null)
-                                                .show();
-                                    }
-                                });
-                            }
-                        }
-                    });
-                }
+                registerPresenter.register(username_text,password_text,confirm_password_text,nickname_text);
                 break;
 
             default:
                 break;
         }
+    }
 
+    public RegisterPresenter getRegisterPresenter()
+    {
+        return registerPresenter;
+    }
 
+    public void setRegisterPresenter(RegisterPresenter registerPresenter)
+    {
+        this.registerPresenter = registerPresenter;
     }
 }
 

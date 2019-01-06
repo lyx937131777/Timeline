@@ -41,7 +41,11 @@ import java.io.UnsupportedEncodingException;
 
 
 import com.bumptech.glide.Glide;
+import com.timeline.android.dagger2.DaggerMyComponent;
+import com.timeline.android.dagger2.MyComponent;
+import com.timeline.android.dagger2.MyModule;
 import com.timeline.android.db.Article;
+import com.timeline.android.presenter.PushPresenter;
 import com.timeline.android.util.HttpUtil;
 import com.timeline.android.util.LogUtil;
 import com.timeline.android.util.Utility;
@@ -72,12 +76,10 @@ public class PushActivity extends AppCompatActivity
     private String imagePath = null;
 
     //message
-    private SharedPreferences pref;
-    private String userID;
-    private String image;
-    private String content;
     private Article article;
     private String type;
+
+    private PushPresenter pushPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -96,8 +98,6 @@ public class PushActivity extends AppCompatActivity
         imageView = findViewById(R.id.img);
         contentText = findViewById(R.id.content);
 
-        pref = PreferenceManager.getDefaultSharedPreferences(this);
-        userID = pref.getString("userID",null);
         type = getIntent().getStringExtra("type");
         if(type != null)
         {
@@ -106,6 +106,10 @@ public class PushActivity extends AppCompatActivity
                 article = (Article)getIntent().getSerializableExtra("article");
                 contentText.setText(article.getContent());
                 Glide.with(this).load(article.getImageURL()).into(imageView);
+                if(article.getImageURL().equals("empty"))
+                {
+                    Glide.with(this).load(R.drawable.temp).into(imageView);
+                }
             }else
             {
                 article = new Article(0,"","","","empty",new Date());
@@ -130,6 +134,8 @@ public class PushActivity extends AppCompatActivity
                             })
                     .show();
         }
+        MyComponent myComponent = DaggerMyComponent.builder().myModule(new MyModule(this)).build();
+        pushPresenter = myComponent.pushPresenter();
 
         imageView.setOnClickListener(new View.OnClickListener()
         {
@@ -146,9 +152,9 @@ public class PushActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu)
     {
         getMenuInflater().inflate(R.menu.commit_menu, menu);
-
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -158,68 +164,13 @@ public class PushActivity extends AppCompatActivity
                 finish();
                 break;
             case R.id.commit:
-                // post json_data to server
-                // if imagePath != null post imagepath ,else post profile_photo
-                if(type.equals("edit"))
-                {
-                    deleteArticle();
-                }
-                if (imagePath != null)
-                {
-                    //TODO address
-                    String address = HttpUtil.LocalAddress + "/article/push";
-                    HttpUtil.uploadImgRequest(address, userID, new File(imagePath), new Callback()
-                    {
-                        @Override
-                        public void onFailure(Call call, IOException e)
-                        {
-                            e.printStackTrace();
-                        }
-
-                        @Override
-                        public void onResponse(Call call, Response response) throws IOException
-                        {
-                            final String responseData = response.body().string();
-                            Log.e("Edit!", responseData);
-                            if (Utility.checkMessage(responseData).equals("true"))
-                            {
-                                article.setImageURL(Utility.checkString(responseData,"image"));
-                                pushArticle();
-                            }
-                        }
-                    });
-                }else
-                {
-                    pushArticle();
-                }
+                pushPresenter.setContentAndImagepath(contentText.getText().toString(),imagePath);
+                pushPresenter.commit();
                 break;
         }
         return true;
     }
 
-    private void deleteArticle()
-    {
-        String address = HttpUtil.LocalAddress + "/article/delete";
-        HttpUtil.deleteRequest(address, article.getArticleID(), new Callback()
-        {
-            @Override
-            public void onFailure(Call call, IOException e)
-            {
-                e.printStackTrace();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException
-            {
-                final String responseData = response.body().string();
-                Log.e("PushActivity:data", responseData);
-                if (Utility.checkMessage(responseData).equals("true"))
-                {
-                    LogUtil.e("Edit!","delete success!");
-                }
-            }
-        });
-    }
 
     private void init_dialog()
     {
@@ -347,15 +298,13 @@ public class PushActivity extends AppCompatActivity
                         // 将拍摄的照片显示出来
                         Bitmap bitmap = BitmapFactory.decodeStream(getContentResolver()
                                 .openInputStream(imageUri));
-                        Log.e("camera", getContentResolver().openInputStream(imageUri).toString());
-                        Log.e("camera", "imageUri:" + imageUri.toString());
-                        //Log.e("camera","imagePath:"+getImagePath(imageUri, null).toString());
+//                        Log.e("camera", getContentResolver().openInputStream(imageUri).toString());
+//                        Log.e("camera", "imageUri:" + imageUri.toString());
+//                        Log.e("camera","imagePath:"+getImagePath(imageUri, null).toString());
                         imageView.setImageBitmap(bitmap);
                     } catch (Exception e)
                     {
-                        Log.e("test", "Here Wrong!!!!!!!");
                         e.printStackTrace();
-                        Log.e("test", "Here Wrong!!!!!!!");
                     }
                 }
                 break;
@@ -447,88 +396,18 @@ public class PushActivity extends AppCompatActivity
         }
     }
 
-    private void pushArticle()
+    public PushPresenter getPushPresenter()
     {
-        article.setContent(contentText.getText().toString());
-        String address = HttpUtil.LocalAddress + "/article/push";
-        HttpUtil.pushRequest(address, userID, article.getContent(), article.getImageURL(), new Callback()
-        {
-            @Override
-            public void onFailure(Call call, IOException e)
-            {
-                e.printStackTrace();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException
-            {
-                final String responseData = response.body().string();
-                Log.e("PushActivity:data", responseData);
-                if (Utility.checkMessage(responseData).equals("true"))
-                {
-                    runOnUiThread(new Runnable()
-                    {
-                        @Override
-                        public void run()
-                        {
-                            new AlertDialog.Builder(PushActivity.this)
-                                    .setTitle("提示")
-                                    .setMessage("发布成功")
-                                    .setPositiveButton("确定", new
-                                            DialogInterface.OnClickListener()
-                                            {
-                                                @Override
-                                                public void onClick(DialogInterface
-                                                                            dialog,
-                                                                    int which)
-                                                {
-                                                    Intent intent = new Intent();
-                                                    setResult(RESULT_OK, intent);
-                                                    finish();
-                                                }
-                                            })
-                                    .show();
-                        }
-                    });
-                }
-            }
-        });
+        return pushPresenter;
     }
 
-//    /**
-//     * 将图片转换成Base64编码的字符串
-//     * @param path
-//     * @return base64编码的字符串
-//     */
-//    public static String imageToBase64(String path){
-//        if(TextUtils.isEmpty(path)){
-//            return null;
-//        }
-//        InputStream is = null;
-//        byte[] data = null;
-//        String result = null;
-//        try{
-//            is = new FileInputStream(path);
-//            //创建一个字符流大小的数组。
-//            data = new byte[is.available()];
-//            //写入数组
-//            is.read(data);
-//            //用默认的编码格式进行编码
-//            result = Base64.encodeToString(data,Base64.DEFAULT);
-//        }catch (IOException e){
-//            e.printStackTrace();
-//        }finally {
-//            if(is != null){
-//                try {
-//                    is.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//
-//        }
-//        LogUtil.e("Push:base64",result.length()+" 000000000");
-//        return result;
-//    }
+    public void setPushPresenter(PushPresenter pushPresenter)
+    {
+        this.pushPresenter = pushPresenter;
+    }
 
+    public Dialog getDialog()
+    {
+        return dialog;
+    }
 }

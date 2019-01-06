@@ -3,6 +3,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
     <line>8</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing support for Firebase App Indexing</problem_class>
     <hints />

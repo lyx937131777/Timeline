@@ -1,0 +1,220 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ArticleActivity</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ArticleActivity (com.timeline.android)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ArticleActivity</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    95.2%
+  </span>
+  <span class="absValue">
+    (40/ 42)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.app.AlertDialog;
+<i>4</i>&nbsp;import android.content.DialogInterface;
+<i>5</i>&nbsp;import android.content.Intent;
+<i>6</i>&nbsp;import android.content.SharedPreferences;
+<i>7</i>&nbsp;import android.preference.PreferenceManager;
+<i>8</i>&nbsp;import android.support.v7.app.AppCompatActivity;
+<i>9</i>&nbsp;import android.os.Bundle;
+<i>10</i>&nbsp;import android.support.v7.widget.CardView;
+<i>11</i>&nbsp;import android.util.Log;
+<i>12</i>&nbsp;import android.view.Menu;
+<i>13</i>&nbsp;import android.view.MenuItem;
+<i>14</i>&nbsp;import android.view.View;
+<i>15</i>&nbsp;import android.widget.ImageView;
+<i>16</i>&nbsp;import android.widget.TextView;
+<i>17</i>&nbsp;import android.widget.Toast;
+<i>18</i>&nbsp;
+<i>19</i>&nbsp;import com.bumptech.glide.Glide;
+<i>20</i>&nbsp;import com.timeline.android.dagger2.DaggerMyComponent;
+<i>21</i>&nbsp;import com.timeline.android.dagger2.MyComponent;
+<i>22</i>&nbsp;import com.timeline.android.dagger2.MyModule;
+<i>23</i>&nbsp;import com.timeline.android.db.Article;
+<i>24</i>&nbsp;import com.timeline.android.presenter.ArticlePresenter;
+<i>25</i>&nbsp;import com.timeline.android.util.HttpUtil;
+<i>26</i>&nbsp;import com.timeline.android.util.LogUtil;
+<i>27</i>&nbsp;import com.timeline.android.util.Utility;
+<i>28</i>&nbsp;
+<i>29</i>&nbsp;import java.io.IOException;
+<i>30</i>&nbsp;import java.text.SimpleDateFormat;
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;import okhttp3.Call;
+<i>33</i>&nbsp;import okhttp3.Callback;
+<i>34</i>&nbsp;import okhttp3.Response;
+<i>35</i>&nbsp;
+<b class="fc"><i>36</i>&nbsp;public class ArticleActivity extends AppCompatActivity</b>
+<i>37</i>&nbsp;{
+<i>38</i>&nbsp;    private TextView authorText;
+<i>39</i>&nbsp;    private TextView dateText;
+<i>40</i>&nbsp;    private TextView contentText;
+<i>41</i>&nbsp;    private ImageView imageView;
+<i>42</i>&nbsp;    private CardView imageCard;
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    private Article article;
+<i>45</i>&nbsp;
+<i>46</i>&nbsp;    private ArticlePresenter articlePresenter;
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    @Override
+<i>49</i>&nbsp;    protected void onCreate(Bundle savedInstanceState)
+<i>50</i>&nbsp;    {
+<b class="fc"><i>51</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<b class="fc"><i>52</i>&nbsp;        setContentView(R.layout.activity_article);</b>
+<i>53</i>&nbsp;
+<b class="fc"><i>54</i>&nbsp;        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);</b>
+<b class="fc"><i>55</i>&nbsp;        setSupportActionBar(toolbar);</b>
+<b class="fc"><i>56</i>&nbsp;        android.support.v7.app.ActionBar actionBar = getSupportActionBar();</b>
+<b class="fc"><i>57</i>&nbsp;        if (actionBar != null)</b>
+<i>58</i>&nbsp;        {
+<b class="fc"><i>59</i>&nbsp;            actionBar.setDisplayHomeAsUpEnabled(true);</b>
+<i>60</i>&nbsp;        }
+<i>61</i>&nbsp;
+<b class="fc"><i>62</i>&nbsp;        article = (Article)getIntent().getSerializableExtra(&quot;article&quot;);</b>
+<b class="fc"><i>63</i>&nbsp;        authorText = findViewById(R.id.author);</b>
+<b class="fc"><i>64</i>&nbsp;        dateText = findViewById(R.id.date);</b>
+<b class="fc"><i>65</i>&nbsp;        contentText = findViewById(R.id.content);</b>
+<b class="fc"><i>66</i>&nbsp;        imageView = findViewById(R.id.img);</b>
+<b class="fc"><i>67</i>&nbsp;        imageCard = findViewById(R.id.img_card);</b>
+<i>68</i>&nbsp;
+<b class="fc"><i>69</i>&nbsp;        authorText.setText(article.getNickname());</b>
+<i>70</i>&nbsp;//        SimpleDateFormat ft = new SimpleDateFormat(&quot;yyyy-MM-dd  HH:mm&quot;);
+<i>71</i>&nbsp;//        dateText.setText(ft.format(article.getDate()));
+<b class="fc"><i>72</i>&nbsp;        dateText.setText(article.timeStamp);</b>
+<b class="fc"><i>73</i>&nbsp;        contentText.setText(article.getContent());</b>
+<b class="fc"><i>74</i>&nbsp;        Glide.with(this).load(article.getImageURL()).into(imageView);</b>
+<b class="fc"><i>75</i>&nbsp;        if(article.getImageURL().equals(&quot;empty&quot;))</b>
+<i>76</i>&nbsp;        {
+<b class="fc"><i>77</i>&nbsp;            imageCard.setVisibility(View.GONE);</b>
+<i>78</i>&nbsp;        }
+<i>79</i>&nbsp;
+<b class="fc"><i>80</i>&nbsp;        MyComponent myComponent = DaggerMyComponent.builder().myModule(new MyModule(this)).build();</b>
+<b class="fc"><i>81</i>&nbsp;        articlePresenter = myComponent.articlePresenter();</b>
+<b class="fc"><i>82</i>&nbsp;    }</b>
+<i>83</i>&nbsp;
+<i>84</i>&nbsp;    public boolean onCreateOptionsMenu(Menu menu)
+<i>85</i>&nbsp;    {
+<b class="fc"><i>86</i>&nbsp;        if(articlePresenter.createMenu())</b>
+<i>87</i>&nbsp;        {
+<b class="fc"><i>88</i>&nbsp;            getMenuInflater().inflate(R.menu.edit_delete_menu, menu);</b>
+<i>89</i>&nbsp;        }
+<b class="fc"><i>90</i>&nbsp;        return true;</b>
+<i>91</i>&nbsp;    }
+<i>92</i>&nbsp;
+<i>93</i>&nbsp;    @Override
+<i>94</i>&nbsp;    public boolean onOptionsItemSelected(MenuItem item)
+<i>95</i>&nbsp;    {
+<b class="fc"><i>96</i>&nbsp;        switch (item.getItemId())</b>
+<i>97</i>&nbsp;        {
+<i>98</i>&nbsp;            case android.R.id.home:
+<b class="nc"><i>99</i>&nbsp;                finish();</b>
+<b class="nc"><i>100</i>&nbsp;                break;</b>
+<i>101</i>&nbsp;            case R.id.edit:
+<b class="fc"><i>102</i>&nbsp;                articlePresenter.edit();</b>
+<i>103</i>&nbsp;//                Toast.makeText(this,&quot;edit&quot;,Toast.LENGTH_LONG).show();
+<b class="fc"><i>104</i>&nbsp;                break;</b>
+<i>105</i>&nbsp;            case R.id.delete:
+<b class="fc"><i>106</i>&nbsp;                articlePresenter.delete();</b>
+<i>107</i>&nbsp;                break;
+<i>108</i>&nbsp;        }
+<b class="fc"><i>109</i>&nbsp;        return true;</b>
+<i>110</i>&nbsp;    }
+<i>111</i>&nbsp;
+<i>112</i>&nbsp;    @Override
+<i>113</i>&nbsp;    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+<i>114</i>&nbsp;    {
+<b class="fc"><i>115</i>&nbsp;        switch (requestCode)</b>
+<i>116</i>&nbsp;        {
+<i>117</i>&nbsp;            case 1:
+<b class="fc"><i>118</i>&nbsp;                if(resultCode == RESULT_OK)</b>
+<i>119</i>&nbsp;                {
+<b class="fc"><i>120</i>&nbsp;                    Intent intent = new Intent();</b>
+<b class="fc"><i>121</i>&nbsp;                    setResult(RESULT_OK, intent);</b>
+<b class="fc"><i>122</i>&nbsp;                    finish();</b>
+<i>123</i>&nbsp;                }
+<i>124</i>&nbsp;                break;
+<i>125</i>&nbsp;        }
+<b class="fc"><i>126</i>&nbsp;    }</b>
+<i>127</i>&nbsp;
+<i>128</i>&nbsp;    public ArticlePresenter getArticlePresenter()
+<i>129</i>&nbsp;    {
+<b class="fc"><i>130</i>&nbsp;        return articlePresenter;</b>
+<i>131</i>&nbsp;    }
+<i>132</i>&nbsp;
+<i>133</i>&nbsp;    public void setArticlePresenter(ArticlePresenter articlePresenter)
+<i>134</i>&nbsp;    {
+<b class="fc"><i>135</i>&nbsp;        this.articlePresenter = articlePresenter;</b>
+<b class="fc"><i>136</i>&nbsp;    }</b>
+<i>137</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

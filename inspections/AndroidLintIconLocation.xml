@@ -1,108 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <problems>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/temp.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/profile.jpg&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/commit.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/commit.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/commit.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/push.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/push.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/push.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/account.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/account.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/account.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/delete.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/delete.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/delete.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/password.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/password.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/password.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_open.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_open.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/pwd_open.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_closed.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_closed.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/pwd_closed.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/nickname.png</file>
-    <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/nickname.png" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
-    <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/nickname.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
-  </problem>
-  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/drawable/add.png</file>
     <line>1</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/add.png" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
     <hints />
     <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/add.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
   </problem>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/account.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/account.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/account.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/password.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/password.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/password.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/edit.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/edit.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/edit.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/nickname.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/nickname.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/nickname.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_closed.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_closed.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/pwd_closed.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_open.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/pwd_open.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/pwd_open.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/drawable/delete_article.png</file>
     <line>1</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/delete_article.png" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
     <hints />
     <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/delete_article.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/edit.png</file>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/commit.png</file>
     <line>1</line>
-    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/edit.png" />
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/commit.png" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
     <hints />
-    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/edit.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/commit.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/delete.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/delete.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/delete.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/profile.jpg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/profile.jpg&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/push.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/push.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/push.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png</file>
+    <line>1</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/temp.png" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/temp.png&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
   </problem>
 </problems>
 

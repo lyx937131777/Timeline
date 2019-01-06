@@ -1,0 +1,215 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ArticleAdapter</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.timeline.android</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ArticleAdapter (com.timeline.android)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ArticleAdapter</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (4/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    94.1%
+  </span>
+  <span class="absValue">
+    (16/ 17)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">ArticleAdapter$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    50%
+  </span>
+  <span class="absValue">
+    (1/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    14.3%
+  </span>
+  <span class="absValue">
+    (1/ 7)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">ArticleAdapter$ViewHolder</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (7/ 7)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    75%
+  </span>
+  <span class="absValue">
+    (6/ 8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    77.4%
+  </span>
+  <span class="absValue">
+    (24/ 31)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.timeline.android;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Context;
+<i>4</i>&nbsp;import android.content.Intent;
+<i>5</i>&nbsp;import android.support.annotation.NonNull;
+<i>6</i>&nbsp;import android.support.v7.widget.RecyclerView;
+<i>7</i>&nbsp;import android.view.LayoutInflater;
+<i>8</i>&nbsp;import android.view.View;
+<i>9</i>&nbsp;import android.view.ViewGroup;
+<i>10</i>&nbsp;import android.widget.ImageView;
+<i>11</i>&nbsp;import android.widget.TextView;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;import com.bumptech.glide.Glide;
+<i>14</i>&nbsp;import com.timeline.android.db.Article;
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;import java.text.SimpleDateFormat;
+<i>17</i>&nbsp;import java.util.List;
+<i>18</i>&nbsp;
+<b class="nc"><i>19</i>&nbsp;public class ArticleAdapter extends RecyclerView.Adapter&lt;ArticleAdapter.ViewHolder&gt;</b>
+<i>20</i>&nbsp;{
+<i>21</i>&nbsp;    private Context mContext;
+<i>22</i>&nbsp;    private List&lt;Article&gt; mArticleList;
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    static  class ViewHolder extends RecyclerView.ViewHolder
+<i>25</i>&nbsp;    {
+<i>26</i>&nbsp;        View articleView;
+<i>27</i>&nbsp;        ImageView articleImg;
+<i>28</i>&nbsp;        TextView articleAuthor;
+<i>29</i>&nbsp;        TextView articleContent;
+<i>30</i>&nbsp;        TextView articleDate;
+<i>31</i>&nbsp;        public ViewHolder(View itemView)
+<i>32</i>&nbsp;        {
+<b class="fc"><i>33</i>&nbsp;            super(itemView);</b>
+<b class="fc"><i>34</i>&nbsp;            articleView = itemView;</b>
+<b class="fc"><i>35</i>&nbsp;            articleImg = itemView.findViewById(R.id.article_img);</b>
+<b class="fc"><i>36</i>&nbsp;            articleAuthor = itemView.findViewById(R.id.article_author);</b>
+<b class="fc"><i>37</i>&nbsp;            articleContent = itemView.findViewById(R.id.article_content);</b>
+<b class="fc"><i>38</i>&nbsp;            articleDate = itemView.findViewById(R.id.article_date);</b>
+<b class="fc"><i>39</i>&nbsp;        }</b>
+<i>40</i>&nbsp;    }
+<i>41</i>&nbsp;    public ArticleAdapter(List&lt;Article&gt; articleList)
+<b class="fc"><i>42</i>&nbsp;    {</b>
+<b class="fc"><i>43</i>&nbsp;        mArticleList = articleList;</b>
+<b class="fc"><i>44</i>&nbsp;    }</b>
+<i>45</i>&nbsp;    @NonNull
+<i>46</i>&nbsp;    @Override
+<i>47</i>&nbsp;    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
+<i>48</i>&nbsp;    {
+<b class="fc"><i>49</i>&nbsp;        if (mContext == null)</b>
+<i>50</i>&nbsp;        {
+<b class="fc"><i>51</i>&nbsp;            mContext = parent.getContext();</b>
+<i>52</i>&nbsp;        }
+<b class="fc"><i>53</i>&nbsp;        View view = LayoutInflater.from(mContext).inflate(R.layout.article_item,parent,false);</b>
+<b class="fc"><i>54</i>&nbsp;        final ArticleAdapter.ViewHolder holder = new ArticleAdapter.ViewHolder(view);</b>
+<b class="fc"><i>55</i>&nbsp;        holder.articleView.setOnClickListener(new View.OnClickListener()</b>
+<b class="fc"><i>56</i>&nbsp;        {</b>
+<i>57</i>&nbsp;            @Override
+<i>58</i>&nbsp;            public void onClick(View v)
+<i>59</i>&nbsp;            {
+<b class="nc"><i>60</i>&nbsp;                int position = holder.getAdapterPosition();</b>
+<b class="nc"><i>61</i>&nbsp;                Article article = mArticleList.get(position);</b>
+<b class="nc"><i>62</i>&nbsp;                Intent intent = new Intent(mContext,ArticleActivity.class);</b>
+<b class="nc"><i>63</i>&nbsp;                intent.putExtra(&quot;article&quot;,article);</b>
+<b class="nc"><i>64</i>&nbsp;                ((MainActivity)mContext).startActivityForResult(intent,1);</b>
+<b class="nc"><i>65</i>&nbsp;            }</b>
+<i>66</i>&nbsp;        });
+<b class="fc"><i>67</i>&nbsp;        return holder;</b>
+<i>68</i>&nbsp;    }
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;    @Override
+<i>71</i>&nbsp;    public void onBindViewHolder(@NonNull ViewHolder holder, int position)
+<i>72</i>&nbsp;    {
+<b class="fc"><i>73</i>&nbsp;        Article article = mArticleList.get(position);</b>
+<b class="fc"><i>74</i>&nbsp;        holder.articleAuthor.setText(article.getNickname());</b>
+<b class="fc"><i>75</i>&nbsp;        holder.articleContent.setText(article.getContent());</b>
+<i>76</i>&nbsp;//        SimpleDateFormat ft = new SimpleDateFormat(&quot;yyyy-MM-dd  HH:mm&quot;);
+<i>77</i>&nbsp;//        holder.articleDate.setText(ft.format(article.getDate()));
+<b class="fc"><i>78</i>&nbsp;        holder.articleDate.setText(article.timeStamp);</b>
+<b class="fc"><i>79</i>&nbsp;        Glide.with(mContext).load(article.getImageURL()).into(holder.articleImg);</b>
+<b class="fc"><i>80</i>&nbsp;    }</b>
+<i>81</i>&nbsp;
+<i>82</i>&nbsp;    @Override
+<i>83</i>&nbsp;    public int getItemCount()
+<i>84</i>&nbsp;    {
+<b class="fc"><i>85</i>&nbsp;        return mArticleList.size();</b>
+<i>86</i>&nbsp;    }
+<i>87</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-01-06 23:11</div>
+</div>
+</body>
+</html>

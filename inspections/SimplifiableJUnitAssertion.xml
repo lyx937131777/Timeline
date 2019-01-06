@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/PushPresenterTest.java</file>
+    <line>57</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenterTest void setContentAndImagepath()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable JUnit assertion</problem_class>
+    <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  </problem>
+</problems>
+

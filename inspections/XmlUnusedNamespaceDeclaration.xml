@@ -3,6 +3,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml</file>
     <line>2</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused XML schema declaration</problem_class>
     <description>Namespace declaration is never used</description>
@@ -10,6 +11,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml</file>
     <line>3</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused XML schema declaration</problem_class>
     <description>Namespace declaration is never used</description>
@@ -17,6 +19,7 @@
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
     <line>3</line>
+    <package>&lt;default&gt;</package>
     <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unused XML schema declaration</problem_class>
     <description>Namespace declaration is never used</description>
