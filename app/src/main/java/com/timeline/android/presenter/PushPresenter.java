@@ -52,16 +52,38 @@ public class PushPresenter
     {
         // post json_data to server
         // if imagePath != null post imagepath ,else post profile_photo
-        if(type.equals("edit"))
+        if(article.getContent().length()>140)
         {
-            deleteArticle();
+            new AlertDialog.Builder(context)
+                    .setTitle("提示")
+                    .setMessage("字数不得大于140")
+                    .setPositiveButton("确定",null)
+                    .show();
+            return;
         }
         if (imagePath != null)
         {
             article.setImageURL(Utility.imageToBase64(imagePath));
+            if(article.getContent().equals(""))
+            {
+                article.setContent("发布图片");
+            }
         }else
         {
+            if(article.getContent().equals(""))
+            {
+                new AlertDialog.Builder(context)
+                        .setTitle("提示")
+                        .setMessage("发布内容不得为空")
+                        .setPositiveButton("确定", null)
+                        .show();
+                return;
+            }
             article.setImageURL("");
+        }
+        if(type.equals("edit"))
+        {
+            deleteArticle();
         }
         pushArticle();
     }

@@ -101,7 +101,7 @@
     <line>43</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityTest void tearDown()" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityInstrumentedTest void tearDown()" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
     <hints>
       <hint value="Exception" />
@@ -113,7 +113,7 @@
     <line>36</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityTest void setUp()" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.LoginActivityInstrumentedTest void setUp()" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant throws clause</problem_class>
     <hints>
       <hint value="Exception" />

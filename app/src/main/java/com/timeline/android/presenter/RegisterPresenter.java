@@ -38,6 +38,7 @@ public class RegisterPresenter
 
         if (!checkUtil.checkRegister(username,password,confirm,nickname))
             return;
+        ((RegisterActivity)context).setSyncFinished(false);
         String address = HttpUtil.LocalAddress + "/user/register";
         HttpUtil.registerRequest(address, username, password, nickname, new
                 Callback()
@@ -47,6 +48,7 @@ public class RegisterPresenter
             {
                 e.printStackTrace();
                 LogUtil.e("Register", "Faled!!!!!!!!!");
+                ((RegisterActivity)context).setSyncFinished(true);
             }
 
             @Override
@@ -105,6 +107,7 @@ public class RegisterPresenter
                         }
                     });
                 }
+                ((RegisterActivity)context).setSyncFinished(true);
             }
         });
     }

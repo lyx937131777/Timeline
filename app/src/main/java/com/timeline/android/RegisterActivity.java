@@ -42,6 +42,9 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
 
     private RegisterPresenter registerPresenter;
 
+    //AndroidTest
+    private boolean isSyncFinished;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -247,6 +250,16 @@ public class RegisterActivity extends AppCompatActivity implements OnClickListen
     public void setRegisterPresenter(RegisterPresenter registerPresenter)
     {
         this.registerPresenter = registerPresenter;
+    }
+
+    public boolean isSyncFinished()
+    {
+        return isSyncFinished;
+    }
+
+    public void setSyncFinished(boolean syncFinished)
+    {
+        isSyncFinished = syncFinished;
     }
 }
 
