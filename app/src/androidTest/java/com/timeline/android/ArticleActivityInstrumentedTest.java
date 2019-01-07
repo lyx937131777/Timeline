@@ -13,7 +13,10 @@ import org.junit.runner.RunWith;
 import java.util.Date;
 
 import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.intent.Intents.intended;
+import static android.support.test.espresso.intent.matcher.IntentMatchers.hasComponent;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withHint;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
@@ -34,21 +37,37 @@ public class ArticleActivityInstrumentedTest
     public void onCreate()
     {
         Intent intent = new Intent();
-        article.timeStamp = "刚刚";
+        article.setTimeStamp("刚刚");
         intent.putExtra("article",article);
         intentsTestRule.launchActivity(intent);
         onView(withId(R.id.toolbar)).check(matches(isDisplayed()));
         onView(withText("Timeline")).check(matches(withParent(withId(R.id.toolbar))));
         onView(withId(R.id.edit)).check(matches(isDisplayed()));
         onView(withId(R.id.delete)).check(matches(isDisplayed()));
-        onView(withId(R.id.author)).check(matches(allOf(isDisplayed(),withText("Test content"))));
+        onView(withId(R.id.author)).check(matches(allOf(isDisplayed(),withText("吕轶霄"))));
         onView(withId(R.id.date)).check(matches(allOf(isDisplayed(),withText("刚刚"))));
         onView(withId(R.id.content)).check(matches(allOf(isDisplayed(),withText("Test content"))));
-        onView(withId(R.id.img)).check(matches(isDisplayed()));
     }
 
     @Test
-    public void onActivityResult()
+    public void onDeleteClick()
     {
+        Intent intent = new Intent();
+        article.setTimeStamp("刚刚");
+        intent.putExtra("article",article);
+        intentsTestRule.launchActivity(intent);
+        onView(withId(R.id.delete)).perform(click());
     }
+
+    @Test
+    public void onEditClick()
+    {
+        Intent intent = new Intent();
+        article.setTimeStamp("刚刚");
+        intent.putExtra("article",article);
+        intentsTestRule.launchActivity(intent);
+        onView(withId(R.id.edit)).perform(click());
+        intended(hasComponent("com.timeline.android.PushActivity"));
+    }
+
 }

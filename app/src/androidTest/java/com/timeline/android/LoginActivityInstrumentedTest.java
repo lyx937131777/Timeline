@@ -3,6 +3,7 @@ package com.timeline.android;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.test.espresso.Espresso;
 import android.support.test.espresso.intent.rule.IntentsTestRule;
 import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;

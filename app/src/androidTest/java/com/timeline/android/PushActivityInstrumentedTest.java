@@ -138,29 +138,29 @@ public class PushActivityInstrumentedTest
         onView(withText("确定")).inRoot(isDialog()).check(matches(isDisplayed())).perform(click());
     }
 
-    @Test
-    public void onImageClick()
-    {
-        Intent intent = new Intent();
-        intent.putExtra("type","push");
-        intentsTestRule.launchActivity(intent);
-        onView(withId(R.id.bt_dialog_camera)).check(matches(not(isDisplayed())));
-        onView(withId(R.id.bt_dialog_album)).check(matches(not(isDisplayed())));
-        onView(withId(R.id.bt_dialog_cancel)).check(matches(not(isDisplayed())));
-        onView(withId(R.id.img)).perform(click());
-        onView(withId(R.id.bt_dialog_camera)).check(matches(isDisplayed()));
-        onView(withId(R.id.bt_dialog_album)).check(matches(isDisplayed()));
-        onView(withId(R.id.bt_dialog_cancel)).check(matches(isDisplayed()));
-    }
+//    @Test
+//    public void onImageClick()
+//    {
+//        Intent intent = new Intent();
+//        intent.putExtra("type","push");
+//        intentsTestRule.launchActivity(intent);
+//        onView(withId(R.id.bt_dialog_camera)).check(matches(not(isDisplayed())));
+//        onView(withId(R.id.bt_dialog_album)).check(matches(not(isDisplayed())));
+//        onView(withId(R.id.bt_dialog_cancel)).check(matches(not(isDisplayed())));
+//        onView(withId(R.id.img)).perform(click());
+//        onView(withId(R.id.bt_dialog_camera)).check(matches(isDisplayed()));
+//        onView(withId(R.id.bt_dialog_album)).check(matches(isDisplayed()));
+//        onView(withId(R.id.bt_dialog_cancel)).check(matches(isDisplayed()));
+//    }
 
-    @Test
-    public void onImageCameraClick()
-    {
-        Intent intent = new Intent();
-        intent.putExtra("type","push");
-        intentsTestRule.launchActivity(intent);
-        onView(withId(R.id.img)).perform(click());
-        onView(withId(R.id.bt_dialog_camera)).perform(click());
-    }
+//    @Test
+//    public void onImageCameraClick()
+//    {
+//        Intent intent = new Intent();
+//        intent.putExtra("type","push");
+//        intentsTestRule.launchActivity(intent);
+//        onView(withId(R.id.img)).perform(click());
+//        onView(withId(R.id.bt_dialog_camera)).perform(click());
+//    }
 
 }

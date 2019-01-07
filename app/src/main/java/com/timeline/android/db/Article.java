@@ -13,7 +13,7 @@ public class Article extends DataSupport implements Serializable
     private String content;
     private String imageURL;
     private Date date;
-    public String timeStamp;
+    private String timeStamp;
 
     public Article(int articleID, String userID,String nickname, String content, String imageURL, Date date)
     {
@@ -83,5 +83,15 @@ public class Article extends DataSupport implements Serializable
     public void setImageURL(String imageURL)
     {
         this.imageURL = imageURL;
+    }
+
+    public String getTimeStamp()
+    {
+        return timeStamp;
+    }
+
+    public void setTimeStamp(String timeStamp)
+    {
+        this.timeStamp = timeStamp;
     }
 }

@@ -37,6 +37,15 @@
     <description>&lt;html&gt;Hardcoded string &quot;commit the article&quot;, should use &lt;code&gt;@string&lt;/code&gt; resource&lt;/html&gt;</description>
   </problem>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_push.xml</file>
+    <line>39</line>
+    <package>&lt;default&gt;</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_push.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded text</problem_class>
+    <hints />
+    <description>&lt;html&gt;Hardcoded string &quot;说点什么...&quot;, should use &lt;code&gt;@string&lt;/code&gt; resource&lt;/html&gt;</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
     <line>60</line>
     <package>&lt;default&gt;</package>

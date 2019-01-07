@@ -2,10 +2,10 @@
 <problems>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
-    <line>51</line>
+    <line>59</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenterTest mockContext" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenterTest loginPresenter" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -26,10 +26,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/LoginPresenterTest.java</file>
-    <line>59</line>
+    <line>51</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenterTest loginPresenter" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenterTest mockContext" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -50,10 +50,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
-    <line>53</line>
+    <line>42</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest nickname" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest mockCheckUtil" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -74,10 +74,46 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest password" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest nickname" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
     <line>47</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest userID" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest registerPresenter" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -109,35 +145,11 @@
     <description>Can be private</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
     <line>49</line>
     <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest password" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
-    <line>42</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest mockCheckUtil" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
-    <line>44</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest registerPresenter" />
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest confirm" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -158,46 +170,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>53</line>
+    <line>59</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedLogin" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>55</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegister" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>47</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest password" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>42</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest checkUtil" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegisterToast" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -218,22 +194,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>59</line>
+    <line>55</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegisterToast" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
-    <hints>
-      <hint value="private" />
-    </hints>
-    <description>Can be private</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>49</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest confirm" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegister" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -246,6 +210,42 @@
     <module>app</module>
     <package>com.timeline.android.util</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest nickname" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest checkUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedLogin" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest password" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -293,7 +293,7 @@
     <line>41</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivity nickname_text" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivity password_text" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -317,7 +317,7 @@
     <line>41</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivity password_text" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivity nickname_text" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -362,10 +362,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
-    <line>11</line>
+    <line>13</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil ERROR" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil level" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -374,10 +374,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
-    <line>13</line>
+    <line>7</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil level" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil VERBOSE" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -398,10 +398,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
-    <line>9</line>
+    <line>11</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil INFO" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil ERROR" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
@@ -422,15 +422,27 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
-    <line>7</line>
+    <line>9</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil VERBOSE" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.LogUtil INFO" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
     <hints>
       <hint value="private" />
     </hints>
     <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/Idling/RegisterIdling.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.timeline.android.Idling</package>
+    <entry_point TYPE="class" FQNAME="com.timeline.android.Idling.RegisterIdling" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="packageLocal" />
+    </hints>
+    <description>Can be package-private</description>
   </problem>
 </problems>
 

@@ -2,10 +2,10 @@
 <problems>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
-    <line>53</line>
+    <line>55</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest nickname" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest expected" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -15,10 +15,23 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
-    <line>55</line>
+    <line>49</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest expected" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest password" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is never assigned.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest nickname" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -53,11 +66,11 @@
     <description>Field is never assigned.</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/presenter/RegisterPresenterTest.java</file>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
     <line>49</line>
     <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenterTest password" />
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest confirm" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -80,36 +93,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>53</line>
+    <line>59</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedLogin" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Field is never assigned.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>55</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegister" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Field is never assigned.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>47</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest password" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegisterToast" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -132,23 +119,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>59</line>
+    <line>55</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegisterToast" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Field is never assigned.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
-    <line>49</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest confirm" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedRegister" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -170,11 +144,37 @@
     <description>Field is never assigned.</description>
   </problem>
   <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest expectedLogin" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is never assigned.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/timeline/android/util/CheckUtilTest.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.util.CheckUtilTest password" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Field is never assigned.</description>
+  </problem>
+  <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
-    <line>38</line>
+    <line>63</line>
     <module>app</module>
     <package>com.timeline.android.db</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article java.util.Date getDate()" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setUserID(java.lang.String userID)" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -197,10 +197,23 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
-    <line>63</line>
+    <line>38</line>
     <module>app</module>
     <package>com.timeline.android.db</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setUserID(java.lang.String userID)" />
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article java.util.Date getDate()" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.timeline.android.db</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setArticleID(int articleID)" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -214,32 +227,6 @@
     <module>app</module>
     <package>com.timeline.android.db</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setDate(java.util.Date date)" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Method is never used.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
-    <line>16</line>
-    <module>app</module>
-    <package>com.timeline.android.db</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.db.Article timeStamp" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Field is never assigned.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/db/Article.java</file>
-    <line>53</line>
-    <module>app</module>
-    <package>com.timeline.android.db</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.db.Article void setArticleID(int articleID)" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -262,6 +249,19 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android.util</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void i(java.lang.String tag, java.lang.String msg)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Method is never used.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
     <line>23</line>
     <module>app</module>
     <package>com.timeline.android.util</package>
@@ -279,19 +279,6 @@
     <module>app</module>
     <package>com.timeline.android.util</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void v(java.lang.String tag, java.lang.String msg)" />
-    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
-    <hints>
-      <hint value="comment" />
-      <hint value="delete" />
-    </hints>
-    <description>Method is never used.</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/LogUtil.java</file>
-    <line>31</line>
-    <module>app</module>
-    <package>com.timeline.android.util</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.util.LogUtil void i(java.lang.String tag, java.lang.String msg)" />
     <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
     <hints>
       <hint value="comment" />
@@ -324,6 +311,19 @@
       <hint value="delete" />
     </hints>
     <description>Field is assigned but never accessed.</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/Idling/RegisterIdling.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.timeline.android.Idling</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.Idling.RegisterIdling RegisterIdling(com.timeline.android.RegisterActivity registerActivity)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+    <hints>
+      <hint value="comment" />
+      <hint value="delete" />
+    </hints>
+    <description>Constructor is never used.</description>
   </problem>
 </problems>
 

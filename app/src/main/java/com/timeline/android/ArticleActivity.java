@@ -69,7 +69,7 @@ public class ArticleActivity extends AppCompatActivity
         authorText.setText(article.getNickname());
 //        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd  HH:mm");
 //        dateText.setText(ft.format(article.getDate()));
-        dateText.setText(article.timeStamp);
+        dateText.setText(article.getTimeStamp());
         contentText.setText(article.getContent());
         Glide.with(this).load(article.getImageURL()).into(imageView);
         if(article.getImageURL().equals("empty"))

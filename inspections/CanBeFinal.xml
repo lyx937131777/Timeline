@@ -12,20 +12,20 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
-    <line>27</line>
+    <line>28</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenter context" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenter pref" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/LoginPresenter.java</file>
-    <line>28</line>
+    <line>27</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenter pref" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.LoginPresenter context" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -42,16 +42,6 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
-    <line>25</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.MainPresenter context" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
-    <hints />
-    <description>Declaration can have final modifier</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
     <line>28</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
@@ -62,10 +52,10 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
-    <line>26</line>
+    <line>25</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.MainPresenter articleList" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.MainPresenter context" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -81,11 +71,11 @@
     <description>Declaration can have final modifier</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/MainPresenter.java</file>
     <line>26</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenter context" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.MainPresenter articleList" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -96,6 +86,16 @@
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenter checkUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
+    <line>26</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.RegisterPresenter context" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -122,20 +122,20 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
-    <line>29</line>
+    <line>27</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleContent" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleImg" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
-    <line>30</line>
+    <line>22</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleDate" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter mArticleList" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -162,20 +162,20 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
-    <line>22</line>
+    <line>30</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter mArticleList" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleDate" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/ArticleAdapter.java</file>
-    <line>27</line>
+    <line>29</line>
     <module>app</module>
     <package>com.timeline.android</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleImg" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleAdapter.ViewHolder articleContent" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -202,16 +202,6 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
-    <line>30</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.ArticlePresenter article" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
-    <hints />
-    <description>Declaration can have final modifier</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
     <line>31</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
@@ -221,31 +211,11 @@
     <description>Declaration can have final modifier</description>
   </problem>
   <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
-    <line>32</line>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/ArticlePresenter.java</file>
+    <line>30</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter type" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
-    <hints />
-    <description>Declaration can have final modifier</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
-    <line>31</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter userID" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
-    <hints />
-    <description>Declaration can have final modifier</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
-    <line>33</line>
-    <module>app</module>
-    <package>com.timeline.android.presenter</package>
-    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter article" />
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.ArticlePresenter article" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>
@@ -262,10 +232,110 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter userID" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
     <line>30</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter pref" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter type" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.timeline.android.presenter</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.presenter.PushPresenter article" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/LoginActivityInstrumentedTest.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.LoginActivityInstrumentedTest intentsTestRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/RegisterActivityInstrumentedTest.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.RegisterActivityInstrumentedTest intentsTestRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/Idling/RegisterIdling.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>com.timeline.android.Idling</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.Idling.RegisterIdling registerActivity" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/ArticleActivityInstrumentedTest.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivityInstrumentedTest article" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/ArticleActivityInstrumentedTest.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.ArticleActivityInstrumentedTest intentsTestRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/PushActivityInstrumentedTest.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivityInstrumentedTest intentsTestRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
+    <hints />
+    <description>Declaration can have final modifier</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/timeline/android/PushActivityInstrumentedTest.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="field" FQNAME="com.timeline.android.PushActivityInstrumentedTest article" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration can have final modifier</problem_class>
     <hints />
     <description>Declaration can have final modifier</description>

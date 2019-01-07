@@ -75,7 +75,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         holder.articleContent.setText(article.getContent());
 //        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd  HH:mm");
 //        holder.articleDate.setText(ft.format(article.getDate()));
-        holder.articleDate.setText(article.timeStamp);
+        holder.articleDate.setText(article.getTimeStamp());
         Glide.with(mContext).load(article.getImageURL()).into(holder.articleImg);
     }
 

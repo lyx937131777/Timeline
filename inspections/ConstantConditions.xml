@@ -29,21 +29,12 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/RegisterPresenter.java</file>
-    <line>55</line>
+    <line>57</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.RegisterPresenter$5 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
     <description>Method invocation &lt;code&gt;string&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
-  </problem>
-  <problem>
-    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
-    <line>184</line>
-    <module>app</module>
-    <package>com.timeline.android</package>
-    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void init_dialog()" />
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
-    <description>Method invocation &lt;code&gt;getAttributes&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
@@ -62,6 +53,15 @@
     <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void handleImageOnKitKat(android.content.Intent data)" />
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
     <description>Method invocation &lt;code&gt;getScheme&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/PushActivity.java</file>
+    <line>184</line>
+    <module>app</module>
+    <package>com.timeline.android</package>
+    <entry_point TYPE="method" FQNAME="com.timeline.android.PushActivity void init_dialog()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getAttributes&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/util/Utility.java</file>
@@ -83,7 +83,7 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
-    <line>83</line>
+    <line>105</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$1 void onResponse(okhttp3.Call call, okhttp3.Response response)" />
@@ -92,7 +92,7 @@
   </problem>
   <problem>
     <file>file://$PROJECT_DIR$/app/src/main/java/com/timeline/android/presenter/PushPresenter.java</file>
-    <line>113</line>
+    <line>135</line>
     <module>app</module>
     <package>com.timeline.android.presenter</package>
     <entry_point TYPE="method" FQNAME="com.timeline.android.presenter.PushPresenter$4 void onResponse(okhttp3.Call call, okhttp3.Response response)" />

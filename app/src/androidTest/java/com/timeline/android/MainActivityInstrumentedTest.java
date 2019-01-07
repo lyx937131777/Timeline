@@ -67,6 +67,6 @@ public class MainActivityInstrumentedTest
     public void itemClick()
     {
         onView(withId(R.id.recycler_view)).perform(RecyclerViewActions.actionOnItemAtPosition(0,click()));
-//        intended(allOf(hasComponent("com.timeline.android.ArticleActivity"),hasExtra("article",any(Article.class))));
+        intended(hasComponent("com.timeline.android.ArticleActivity"));
     }
 }
